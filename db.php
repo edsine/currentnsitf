@@ -1,0 +1,16 @@
+<?php
+    $servername='localhost';
+    $username='root';
+    $password='';
+    $dbname = "ebsdb";
+    $conn=mysqli_connect($servername,$username,$password,"$dbname");
+      if(!$conn){
+          die('Could not Connect MySql Server:' .mysql_error());
+        }
+        
+        
+       echo 'local';
+      
+       
+       
+       

@@ -1,0 +1,957 @@
+[10-May-2023 06:07:34 UTC] PHP Notice:  Undefined variable: query in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 83
+[10-May-2023 06:07:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getRow() on null in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php:83
+Stack trace:
+#0 {main}
+  thrown in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 83
+[10-May-2023 06:09:07 UTC] PHP Notice:  Undefined variable: login in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 86
+[10-May-2023 06:22:15 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[10-May-2023 06:22:15 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[10-May-2023 06:23:54 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[10-May-2023 06:23:54 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[10-May-2023 06:25:26 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[10-May-2023 06:25:26 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[10-May-2023 06:26:08 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[10-May-2023 06:26:08 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[10-May-2023 06:27:00 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[10-May-2023 06:27:00 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[10-May-2023 08:31:05 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[10-May-2023 08:31:05 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[10-May-2023 09:43:08 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 3
+[10-May-2023 09:43:08 UTC] PHP Notice:  Undefined index: doc in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 21
+[10-May-2023 09:43:09 UTC] PHP Notice:  Undefined index: password in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 46
+[10-May-2023 09:43:09 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 668
+[10-May-2023 09:43:30 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 3
+[10-May-2023 09:43:30 UTC] PHP Notice:  Undefined index: doc in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 21
+[10-May-2023 09:43:30 UTC] PHP Notice:  Undefined index: password in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 46
+[10-May-2023 09:43:30 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 668
+[10-May-2023 09:44:08 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 3
+[10-May-2023 09:44:08 UTC] PHP Notice:  Undefined index: doc in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 21
+[10-May-2023 09:44:08 UTC] PHP Notice:  Undefined index: password in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 46
+[10-May-2023 09:44:08 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 668
+[10-May-2023 09:57:33 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 3
+[10-May-2023 09:57:34 UTC] PHP Notice:  Undefined index: doc in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 21
+[10-May-2023 09:57:34 UTC] PHP Notice:  Undefined index: password in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 46
+[10-May-2023 09:57:34 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 668
+[10-May-2023 10:02:11 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 3
+[10-May-2023 10:02:11 UTC] PHP Notice:  Undefined index: doc in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 21
+[10-May-2023 10:02:11 UTC] PHP Notice:  Undefined index: password in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 46
+[10-May-2023 10:02:11 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 668
+[10-May-2023 10:09:29 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 3
+[10-May-2023 10:09:29 UTC] PHP Notice:  Undefined index: doc in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 21
+[10-May-2023 10:09:29 UTC] PHP Notice:  Undefined index: password in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 46
+[10-May-2023 10:09:29 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/addEmployee.php on line 668
+[10-May-2023 10:37:09 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/employer_reg.php on line 3
+[10-May-2023 10:37:09 UTC] PHP Notice:  Undefined index: lgvt in /home2/artisan6/public_html/ebs/dashboard/home/processor/employer_reg.php on line 48
+[10-May-2023 10:37:09 UTC] PHP Warning:  move_uploaded_file(../employer_documents/:%22&gt;.jpg): failed to open stream: No such file or directory in /home2/artisan6/public_html/ebs/dashboard/home/processor/employer_reg.php on line 76
+[10-May-2023 10:37:09 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpseB6PQ' to '../employer_documents/:%22&gt;.jpg' in /home2/artisan6/public_html/ebs/dashboard/home/processor/employer_reg.php on line 76
+[10-May-2023 10:37:09 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/employer_reg.php on line 673
+[11-May-2023 05:45:50 UTC] PHP Notice:  Trying to get property 'search' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 79
+[11-May-2023 05:45:50 UTC] PHP Notice:  Trying to get property 'login' of non-object in /home2/artisan6/public_html/ebs/dashboard/home/processor/upload.php on line 80
+[11-May-2023 05:47:19 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 3
+[11-May-2023 05:47:20 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 88
+[11-May-2023 05:47:20 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 594
+[11-May-2023 05:49:07 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 3
+[11-May-2023 05:49:07 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 88
+[11-May-2023 05:49:07 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 594
+[11-May-2023 05:49:36 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 3
+[11-May-2023 05:49:36 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 594
+[11-May-2023 05:50:50 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 3
+[11-May-2023 05:50:50 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 88
+[11-May-2023 05:50:50 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_staff.php on line 594
+[11-May-2023 06:26:46 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:26:46 UTC] PHP Notice:  Undefined index: staff in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 16
+[11-May-2023 06:26:46 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 33
+[11-May-2023 06:26:46 UTC] PHP Notice:  Undefined variable: conn in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:26:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:27:54 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:27:54 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 33
+[11-May-2023 06:27:54 UTC] PHP Notice:  Undefined variable: conn in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:27:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:29:01 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:29:01 UTC] PHP Notice:  Undefined index: reasons in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 17
+[11-May-2023 06:29:01 UTC] PHP Notice:  Undefined index: sdate in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 18
+[11-May-2023 06:29:01 UTC] PHP Notice:  Undefined index: edate in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 19
+[11-May-2023 06:29:01 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 33
+[11-May-2023 06:29:01 UTC] PHP Notice:  Undefined variable: conn in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:29:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:29:04 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:29:04 UTC] PHP Notice:  Undefined index: reasons in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 17
+[11-May-2023 06:29:04 UTC] PHP Notice:  Undefined index: sdate in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 18
+[11-May-2023 06:29:04 UTC] PHP Notice:  Undefined index: edate in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 19
+[11-May-2023 06:29:04 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 33
+[11-May-2023 06:29:04 UTC] PHP Notice:  Undefined variable: conn in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:29:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 38
+[11-May-2023 06:30:55 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:30:55 UTC] PHP Notice:  Undefined index: reasons in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 23
+[11-May-2023 06:30:55 UTC] PHP Notice:  Undefined index: sdate in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 24
+[11-May-2023 06:30:55 UTC] PHP Notice:  Undefined index: edate in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 25
+[11-May-2023 06:30:55 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 39
+[11-May-2023 06:30:55 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 84
+[11-May-2023 06:33:10 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:33:10 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 39
+[11-May-2023 06:33:10 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 84
+[11-May-2023 06:50:37 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 06:50:37 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 39
+[11-May-2023 06:50:37 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 84
+[11-May-2023 07:07:12 UTC] PHP Notice:  Undefined variable: plan in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 3
+[11-May-2023 07:07:12 UTC] PHP Notice:  Undefined variable: pin in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 39
+[11-May-2023 07:07:12 UTC] PHP Notice:  Undefined variable: returnData in /home2/artisan6/public_html/ebs/dashboard/home/processor/new_leave.php on line 84
+[12-May-2023 18:39:30 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:42:00 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:42:03 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:42:40 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:45:29 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:45:29 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 18:45:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 18:45:29 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 27
+[12-May-2023 18:45:32 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:45:32 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 18:45:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 18:45:32 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 27
+[12-May-2023 18:58:44 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 18:58:44 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 18:58:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 18:58:44 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 18:58:44 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 125
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:00:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:00:54 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:00:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:00:56 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:00:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:00:59 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:03:24 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:03:24 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:03:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:03:24 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:03:24 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:04:42 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:04:42 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:04:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:04:42 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:04:42 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:04:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:04:54 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:04:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:04:56 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 121
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:05:28 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:05:28 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 124
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:05:49 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:05:49 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 124
+[12-May-2023 19:07:56 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:07:56 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:08:40 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:08:40 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 124
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:08:42 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:08:42 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 124
+[12-May-2023 19:09:03 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:09:03 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:11:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:11:39 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 124
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:11:41 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:11:41 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 124
+[12-May-2023 19:12:00 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:12:00 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:12:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:12:17 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 109
+[12-May-2023 19:12:32 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:12:32 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:12:32 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 109
+[12-May-2023 19:13:59 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:14:01 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:14:21 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 21
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: empId in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 32
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: insEmp in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 33
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: ins_start in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 34
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: ins_end in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 35
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined index: compliant in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 36
+[12-May-2023 19:14:21 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 123
+[12-May-2023 19:14:41 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:14:43 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:14:43 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 123
+[12-May-2023 19:20:59 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:20:59 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:20:59 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 123
+[12-May-2023 19:23:43 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:23:43 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:23:43 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 123
+[12-May-2023 19:43:55 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:43:55 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:43:55 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 137
+[12-May-2023 19:44:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:44:36 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:44:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 137
+[12-May-2023 19:46:19 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:46:19 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:46:19 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 136
+[12-May-2023 19:47:26 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:47:26 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:47:27 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 136
+[12-May-2023 19:48:32 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:48:33 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:48:33 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 136
+[12-May-2023 19:50:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:50:36 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:50:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 137
+[12-May-2023 19:51:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 19:51:20 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 19:51:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 125
+[12-May-2023 21:19:43 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 21:19:43 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 21:19:44 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 137
+[12-May-2023 21:26:33 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 3
+[12-May-2023 21:26:33 UTC] PHP Warning:  filesize() expects parameter 1 to be a valid path, array given in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 24
+[12-May-2023 21:26:33 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/inspection_report.php on line 137
+[12-May-2023 21:52:37 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[12-May-2023 21:52:43 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[12-May-2023 23:44:22 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[12-May-2023 23:44:22 UTC] PHP Warning:  require(/home2/artisan6/public_html/demo/client/PHPMailer_5.2.0/class.phpmailer.php): failed to open stream: No such file or directory in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 14
+[12-May-2023 23:44:22 UTC] PHP Fatal error:  require(): Failed opening required '/home2/artisan6/public_html/demo/client/PHPMailer_5.2.0/class.phpmailer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 14
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: fname in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 30
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: mname in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 31
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: lname in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 32
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: phone in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 33
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: cemail in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 34
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: gender in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 35
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: region in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 36
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined index: role in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 39
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 89
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 415
+[12-May-2023 23:46:55 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 598
+[12-May-2023 23:51:07 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[12-May-2023 23:51:07 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 89
+[12-May-2023 23:51:09 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 598
+[13-May-2023 15:07:18 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[13-May-2023 15:07:18 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 89
+[13-May-2023 15:07:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 598
+[13-May-2023 15:07:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[13-May-2023 15:07:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 598
+[14-May-2023 04:20:29 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[14-May-2023 04:20:29 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 89
+[14-May-2023 04:20:31 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 598
+[14-May-2023 07:22:16 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[14-May-2023 07:22:48 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[14-May-2023 12:14:42 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[14-May-2023 12:14:42 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 89
+[14-May-2023 12:14:44 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 598
+[14-May-2023 12:16:46 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[14-May-2023 12:16:46 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[14-May-2023 12:18:27 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[14-May-2023 12:18:27 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[14-May-2023 12:18:29 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[14-May-2023 13:32:44 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[14-May-2023 13:32:44 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[14-May-2023 13:32:47 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[14-May-2023 14:09:04 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[14-May-2023 14:09:04 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[14-May-2023 14:09:06 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[14-May-2023 14:51:08 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[14-May-2023 14:51:18 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[15-May-2023 16:07:07 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:07:07 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 21
+[15-May-2023 16:07:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 21
+[15-May-2023 16:07:07 UTC] PHP Warning:  require(/home2/artisan6/public_html/demo/client/PHPMailer_5.2.0/class.phpmailer.php): failed to open stream: No such file or directory in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 27
+[15-May-2023 16:07:07 UTC] PHP Fatal error:  require(): Failed opening required '/home2/artisan6/public_html/demo/client/PHPMailer_5.2.0/class.phpmailer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 27
+[15-May-2023 16:07:52 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:07:52 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 21
+[15-May-2023 16:07:52 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 21
+[15-May-2023 16:07:52 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 39
+[15-May-2023 16:07:52 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 128
+[15-May-2023 16:10:16 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:10:16 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 39
+[15-May-2023 16:10:58 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:10:59 UTC] PHP Notice:  Undefined index: m_file in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 21
+[15-May-2023 16:10:59 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 21
+[15-May-2023 16:10:59 UTC] PHP Notice:  Undefined index: dpart in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 27
+[15-May-2023 16:10:59 UTC] PHP Notice:  Undefined index: staffId in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 28
+[15-May-2023 16:10:59 UTC] PHP Notice:  Undefined index: doc_name in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 29
+[15-May-2023 16:10:59 UTC] PHP Notice:  Undefined index: doc_desc in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 30
+[15-May-2023 16:10:59 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 39
+[15-May-2023 16:11:00 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 128
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 39
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: fname in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 91
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: pstate in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 93
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: plocal in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 94
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: address in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 95
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: phone in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 96
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: state in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 97
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: companyName in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 98
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: email in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 99
+[15-May-2023 16:11:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 128
+[15-May-2023 16:14:00 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:14:00 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 39
+[15-May-2023 16:14:00 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 113
+[15-May-2023 16:14:02 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:14:02 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 39
+[15-May-2023 16:14:02 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 113
+[15-May-2023 16:19:06 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:19:06 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:19:07 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 121
+[15-May-2023 16:21:23 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:21:23 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:21:23 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 121
+[15-May-2023 16:24:45 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:24:45 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:24:45 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 121
+[15-May-2023 16:26:03 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:26:03 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:26:03 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 121
+[15-May-2023 16:32:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:32:20 UTC] PHP Warning:  filesize(): stat failed for FootSignQr.jpg in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 33
+[15-May-2023 16:32:20 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:32:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 122
+[15-May-2023 16:35:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:35:20 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:35:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 122
+[15-May-2023 16:37:38 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 16:37:38 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 47
+[15-May-2023 16:37:38 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 122
+[15-May-2023 18:17:27 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[15-May-2023 18:17:28 UTC] PHP Notice:  Undefined index: folder in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 21
+[15-May-2023 18:17:28 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 23
+[15-May-2023 18:17:28 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 25
+[15-May-2023 18:17:28 UTC] PHP Notice:  Undefined variable: fileType in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 47
+[15-May-2023 18:17:28 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 110
+[15-May-2023 18:18:21 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[15-May-2023 18:18:21 UTC] PHP Notice:  Undefined index: folder in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 21
+[15-May-2023 18:18:21 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 23
+[15-May-2023 18:18:21 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 25
+[15-May-2023 18:18:21 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[15-May-2023 18:29:18 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[15-May-2023 18:29:18 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 23
+[15-May-2023 18:29:18 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 25
+[15-May-2023 18:29:18 UTC] PHP Notice:  Undefined variable: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 26
+[15-May-2023 18:29:18 UTC] PHP Notice:  Undefined index: doc_name in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 35
+[15-May-2023 18:29:18 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[15-May-2023 18:33:11 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[15-May-2023 18:33:11 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[15-May-2023 18:51:04 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 18:51:04 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[15-May-2023 18:51:04 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[15-May-2023 18:53:26 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 18:53:26 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[15-May-2023 18:53:26 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: spath in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 22
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: m_file in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 41
+[15-May-2023 21:45:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 41
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: m_file in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 46
+[15-May-2023 21:45:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 46
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: dpart in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 48
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: staffId in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 49
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: doc_name in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 50
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined index: doc_desc in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 51
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[15-May-2023 21:45:00 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined index: path in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 20
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined index: folder in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 21
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined index: dpart in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 33
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined index: staffId in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 34
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined index: folder in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 35
+[15-May-2023 23:14:11 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[15-May-2023 23:17:14 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[15-May-2023 23:17:14 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[16-May-2023 01:23:55 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[16-May-2023 08:56:44 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 08:56:44 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 27
+[16-May-2023 08:56:44 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 118
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: sign in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 20
+[16-May-2023 08:57:43 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 20
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 27
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: last_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: new_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 30
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: n_days in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 31
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: h_address in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 32
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: houseNum in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 33
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: st_number in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 34
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: district in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 35
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: lcouncil in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 36
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: state in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 37
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: phone in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 38
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined index: officeR in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 39
+[16-May-2023 08:57:43 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 115
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: sign in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 20
+[16-May-2023 08:57:45 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 20
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 27
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: last_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: new_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 30
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: n_days in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 31
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: h_address in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 32
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: houseNum in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 33
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: st_number in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 34
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: district in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 35
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: lcouncil in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 36
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: state in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 37
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: phone in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 38
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined index: officeR in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 39
+[16-May-2023 08:57:45 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 115
+[16-May-2023 08:59:27 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 08:59:27 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 27
+[16-May-2023 08:59:27 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 115
+[16-May-2023 09:09:02 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 09:09:02 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[16-May-2023 09:09:02 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 121
+[16-May-2023 09:42:18 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 09:42:19 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 121
+[16-May-2023 10:11:06 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 10:11:06 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[16-May-2023 10:13:34 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 10:13:34 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[16-May-2023 15:28:18 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:28:19 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:28:19 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:28:19 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 49
+[16-May-2023 15:29:09 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:29:09 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:29:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:29:09 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 38
+[16-May-2023 15:29:09 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 39
+[16-May-2023 15:29:09 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 40
+[16-May-2023 15:29:09 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 41
+[16-May-2023 15:29:11 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:29:11 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:29:11 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:29:11 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 38
+[16-May-2023 15:29:11 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 39
+[16-May-2023 15:29:11 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 40
+[16-May-2023 15:29:11 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 41
+[16-May-2023 15:29:12 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:29:12 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:29:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 21
+[16-May-2023 15:29:12 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 38
+[16-May-2023 15:29:12 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 39
+[16-May-2023 15:29:12 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 40
+[16-May-2023 15:29:12 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 41
+[16-May-2023 15:29:49 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:29:49 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[16-May-2023 15:29:49 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[16-May-2023 15:29:49 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[16-May-2023 15:29:49 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[16-May-2023 15:30:16 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:31:50 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:31:50 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[16-May-2023 15:31:50 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[16-May-2023 15:31:50 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[16-May-2023 15:31:50 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[16-May-2023 15:33:08 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:34:29 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:34:29 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[16-May-2023 15:34:29 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[16-May-2023 15:34:29 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[16-May-2023 15:34:29 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[16-May-2023 15:34:55 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:37:11 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:37:11 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[16-May-2023 15:37:11 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[16-May-2023 15:37:11 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[16-May-2023 15:37:11 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[16-May-2023 15:38:00 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:38:00 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[16-May-2023 15:38:00 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[16-May-2023 15:38:00 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[16-May-2023 15:38:00 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[16-May-2023 15:38:00 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[16-May-2023 15:38:23 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:38:23 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[16-May-2023 15:40:07 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:40:07 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[16-May-2023 15:42:19 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:42:19 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[16-May-2023 15:50:24 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[16-May-2023 15:50:24 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[16-May-2023 15:51:54 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 15:51:54 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[16-May-2023 15:51:54 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[16-May-2023 15:51:54 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[16-May-2023 15:51:54 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[16-May-2023 15:51:54 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[16-May-2023 15:52:28 UTC] PHP Fatal error:  Uncaught Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ensitfco_nsitf.file_uploads' doesn't exist in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php:13
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/processor/upload.php(32): Manage->insert('INSERT INTO fil...', Array)
+#1 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/processor/classes/manage.php on line 13
+[16-May-2023 16:35:39 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[16-May-2023 16:35:39 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[16-May-2023 17:22:43 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 17:22:43 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[16-May-2023 17:22:43 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[16-May-2023 17:48:21 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[16-May-2023 17:48:21 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[16-May-2023 17:48:46 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[16-May-2023 17:48:46 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[16-May-2023 17:48:46 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[16-May-2023 17:50:27 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 17:50:27 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[16-May-2023 17:50:27 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[16-May-2023 18:07:06 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 18:07:07 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[16-May-2023 18:43:52 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: sign in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[16-May-2023 18:44:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: staff in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 33
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: last_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 38
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: new_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 39
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: n_days in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 40
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: h_address in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 41
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: houseNum in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 42
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: st_number in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 43
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: district in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 44
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: lcouncil in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 45
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: state in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 46
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: phone in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 47
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined index: officeR in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 48
+[16-May-2023 18:44:27 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[16-May-2023 18:44:59 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[16-May-2023 18:44:59 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 04:20:15 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 04:20:16 UTC] PHP Notice:  Undefined variable: depart in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 42
+[17-May-2023 04:20:16 UTC] PHP Notice:  Undefined variable: staff in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 43
+[17-May-2023 04:20:16 UTC] PHP Notice:  Undefined variable: fileName in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 45
+[17-May-2023 04:20:16 UTC] PHP Notice:  Undefined variable: depart in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 48
+[17-May-2023 04:20:16 UTC] PHP Notice:  Undefined variable: staff in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 49
+[17-May-2023 04:32:28 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 04:32:28 UTC] PHP Notice:  Undefined variable: depart in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 42
+[17-May-2023 04:32:28 UTC] PHP Notice:  Undefined variable: staff in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 43
+[17-May-2023 04:32:28 UTC] PHP Notice:  Undefined variable: fileName in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 45
+[17-May-2023 04:32:28 UTC] PHP Notice:  Undefined variable: depart in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 48
+[17-May-2023 04:32:28 UTC] PHP Notice:  Undefined variable: staff in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 49
+[17-May-2023 04:38:01 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 04:40:12 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 04:40:12 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 97
+[17-May-2023 04:46:02 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 04:46:02 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 97
+[17-May-2023 04:46:57 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 04:46:57 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 97
+[17-May-2023 07:03:13 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 07:03:13 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 97
+[17-May-2023 07:05:46 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 07:05:46 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 97
+[17-May-2023 10:18:10 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 10:18:11 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 10:18:11 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 10:18:11 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 133
+[17-May-2023 10:22:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 10:22:36 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 10:22:36 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 10:22:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 146
+[17-May-2023 11:32:38 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 11:32:38 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 11:32:38 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 11:32:38 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 146
+[17-May-2023 12:56:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[17-May-2023 12:56:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[17-May-2023 13:50:08 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[17-May-2023 13:50:08 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[17-May-2023 13:50:35 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 13:50:35 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 13:50:35 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 13:51:04 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 13:51:04 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 13:51:04 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 13:59:11 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 13:59:11 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 13:59:11 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 14:00:09 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 14:00:09 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 14:00:09 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 14:02:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:02:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 146
+[17-May-2023 14:03:13 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:03:13 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 146
+[17-May-2023 14:03:24 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:03:24 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 146
+[17-May-2023 14:15:18 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:15:18 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 14:15:18 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 14:15:18 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:17:52 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:17:52 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 14:17:52 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 14:17:52 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:19:13 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:19:13 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 14:19:13 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 14:19:13 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:27:01 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:27:01 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: sign in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[17-May-2023 14:33:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: staff in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 33
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: last_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 38
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: new_leave in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 39
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: n_days in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 40
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: h_address in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 41
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: houseNum in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 42
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: st_number in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 43
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: district in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 44
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: lcouncil in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 45
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: state in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 46
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: phone in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 47
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined index: officeR in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 48
+[17-May-2023 14:33:37 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 14:33:45 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 14:33:45 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 14:33:45 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 14:35:39 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:35:39 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:38:17 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:38:17 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 14:38:17 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 14:38:17 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:43:26 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 14:43:27 UTC] PHP Notice:  Undefined index: app_days in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 28
+[17-May-2023 14:43:27 UTC] PHP Notice:  Undefined index: app_date in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 29
+[17-May-2023 14:43:27 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 14:55:33 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 14:55:33 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 14:55:34 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 15:12:28 UTC] PHP Fatal error:  Uncaught PhpOffice\PhpSpreadsheet\Reader\Exception: Could not find zip member zip://../template_format/uploads/01. NGEA_Data_NAVSA.xlsx#_rels/.rels in /home/ensitfco/public_html/ebs/home/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php:159
+Stack trace:
+#0 /home/ensitfco/public_html/ebs/home/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/Xlsx.php(408): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('../template_for...', '_rels/.rels')
+#1 /home/ensitfco/public_html/ebs/home/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Reader/BaseReader.php(166): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('../template_for...')
+#2 /home/ensitfco/public_html/ebs/home/processor/addBulkStaff.php(25): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('../template_for...')
+#3 {main}
+  thrown in /home/ensitfco/public_html/ebs/home/vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Shared/File.php on line 159
+[17-May-2023 15:31:11 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 3
+[17-May-2023 15:31:11 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/s_review.php on line 148
+[17-May-2023 16:14:14 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:14:14 UTC] PHP Notice:  Undefined index: file in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:14:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:14:14 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 27
+[17-May-2023 16:14:14 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 100
+[17-May-2023 16:15:31 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:15:31 UTC] PHP Notice:  Undefined index: file in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:15:31 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:15:31 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 27
+[17-May-2023 16:15:31 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 100
+[17-May-2023 16:17:51 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:17:51 UTC] PHP Notice:  Undefined index: file in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:17:51 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:17:51 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 27
+[17-May-2023 16:17:51 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 100
+[17-May-2023 16:19:37 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:19:37 UTC] PHP Notice:  Undefined index: file in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:19:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:19:37 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 27
+[17-May-2023 16:19:37 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 92
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined index: file in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:20:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined index: fname in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 27
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined index: femail in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 28
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined index: doc_name in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 30
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 31
+[17-May-2023 16:20:24 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 95
+[17-May-2023 16:20:39 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:20:39 UTC] PHP Notice:  Undefined index: file in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:20:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:20:39 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 30
+[17-May-2023 16:20:39 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 95
+[17-May-2023 16:22:29 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:22:29 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:22:29 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:22:29 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:22:29 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 94
+[17-May-2023 16:23:54 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:23:54 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:23:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:23:54 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:23:54 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 94
+[17-May-2023 16:29:56 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:29:56 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:29:56 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:29:56 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:29:56 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 16:32:44 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:32:44 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:32:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:32:44 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:32:44 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 16:33:25 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:33:25 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:33:25 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:33:25 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:33:25 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 16:39:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 16:39:36 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:39:36 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 16:39:36 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 16:39:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 16:41:50 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 16:41:50 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 16:42:19 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 16:42:19 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 16:42:21 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 16:57:47 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 16:57:48 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 16:57:50 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:00:02 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:00:02 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:00:03 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 421
+[17-May-2023 17:00:05 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:00:46 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 17:00:46 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 17:00:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 17:00:46 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 17:00:46 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 17:11:15 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:11:15 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:11:15 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 421
+[17-May-2023 17:11:17 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:16:34 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:16:34 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:16:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:20:25 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:20:25 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:20:28 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:22:12 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:22:12 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:22:13 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 421
+[17-May-2023 17:22:15 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:31:09 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:31:09 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:31:09 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 421
+[17-May-2023 17:31:11 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:32:05 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 17:32:05 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 17:32:05 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 17:32:05 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 17:32:05 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 17:33:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[17-May-2023 17:33:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[17-May-2023 17:35:29 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 17:35:29 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 17:35:29 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 17:36:01 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:36:01 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:36:03 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:37:04 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 17:37:04 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 17:37:04 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 17:41:38 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[17-May-2023 17:41:38 UTC] PHP Notice:  Undefined index: fileId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 32
+[17-May-2023 17:41:38 UTC] PHP Notice:  Undefined index: fromId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 33
+[17-May-2023 17:41:38 UTC] PHP Notice:  Undefined index: toId in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 34
+[17-May-2023 17:41:38 UTC] PHP Notice:  Undefined index: comment in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 35
+[17-May-2023 17:41:38 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[17-May-2023 17:48:29 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:48:29 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:48:31 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:50:16 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 17:50:16 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 17:50:16 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 421
+[17-May-2023 17:50:18 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 17:51:00 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 3
+[17-May-2023 17:51:00 UTC] PHP Notice:  Undefined index: doc in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 17:51:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 19
+[17-May-2023 17:51:00 UTC] PHP Notice:  Undefined index: doc_path in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 29
+[17-May-2023 17:51:00 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/registry_val.php on line 88
+[17-May-2023 18:20:15 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 18:20:15 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 18:20:17 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 18:23:36 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 18:23:36 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 18:23:36 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 18:29:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[17-May-2023 18:29:20 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[17-May-2023 18:29:39 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 3
+[17-May-2023 18:29:40 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/create_folder.php on line 97
+[17-May-2023 18:30:43 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 18:30:44 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 18:30:44 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 20:36:17 UTC] PHP Notice:  Undefined offset: 22 in /home/ensitfco/public_html/ebs/home/processor/addBulkEmployee.php on line 56
+[17-May-2023 20:36:17 UTC] PHP Notice:  Undefined offset: 22 in /home/ensitfco/public_html/ebs/home/processor/addBulkEmployee.php on line 56
+[17-May-2023 20:36:17 UTC] PHP Notice:  Undefined offset: 22 in /home/ensitfco/public_html/ebs/home/processor/addBulkEmployee.php on line 56
+[17-May-2023 21:18:45 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[17-May-2023 21:18:46 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[17-May-2023 21:19:53 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 3
+[17-May-2023 21:19:53 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/share_files.php on line 86
+[17-May-2023 21:20:24 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 21:20:24 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 21:20:24 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 21:31:24 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 21:31:24 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 21:31:26 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 22:35:51 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 22:35:51 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 22:35:54 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 22:42:50 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 22:42:50 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 22:42:52 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 23:12:40 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 23:12:40 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 23:12:40 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 23:13:17 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 23:13:17 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 23:13:17 UTC] PHP Notice:  Undefined index: sign in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[17-May-2023 23:13:17 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[17-May-2023 23:13:17 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 124
+[17-May-2023 23:14:14 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 3
+[17-May-2023 23:14:14 UTC] PHP Notice:  Undefined index: type in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 17
+[17-May-2023 23:14:14 UTC] PHP Notice:  Undefined index: sign in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[17-May-2023 23:14:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 29
+[17-May-2023 23:14:14 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_leave.php on line 118
+[17-May-2023 23:15:13 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 3
+[17-May-2023 23:15:13 UTC] PHP Notice:  Undefined variable: cemail in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 60
+[17-May-2023 23:15:13 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/doc_file.php on line 135
+[17-May-2023 23:43:04 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 23:43:04 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 23:43:04 UTC] PHP Notice:  Undefined variable: roli in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 421
+[17-May-2023 23:43:06 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
+[17-May-2023 23:59:20 UTC] PHP Notice:  Undefined variable: plan in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 3
+[17-May-2023 23:59:20 UTC] PHP Notice:  Undefined variable: pin in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 90
+[17-May-2023 23:59:23 UTC] PHP Notice:  Undefined variable: returnData in /home/ensitfco/public_html/ebs/home/processor/new_staff.php on line 604
