@@ -1,8 +1,8 @@
 <?php
-    $servername='178.159.5.249';
+    $servername='localhost';
     $username='root';
     $password='';
-    $dbname = "nsitfmai_essp";
+    $dbname = "ebsdb";
     $conn=mysqli_connect($servername,$username,$password,"$dbname");
       if(!$conn){
           die('Could not Connect MySql Server:' .mysql_error());
