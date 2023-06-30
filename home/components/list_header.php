@@ -1,12 +1,10 @@
   <div class="row">
                 <div class="col-lg-8 mb-4 order-0">
-                  <div class="card">
-                    <div class="d-flex align-items-end row">
+                  <div class="card justify-center">
+                    <!-- <div class="d-flex align-items-end row">
                       <div class="col-sm-9">
                         <div class="card-body" style="height:40%;">
                           <h5 class="card-title text-primary" style="font-size:35px;font-weight:bold; color:black;"> e-NSITF View & Manage🎉</h5>
-                         
-
                         
                         </div>
                       </div>
@@ -21,7 +19,7 @@
                           />
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
                 </div>
                 <div class="col-lg-4 col-md-4 order-1">
