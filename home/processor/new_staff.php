@@ -19,7 +19,7 @@ require("PHPMailer_5.2.0/class.pop3.php");
  
   $mail = new PHPMailer();
 
-require __DIR__.'/classes/Database.php';
+require __DIR__.'/classes/database.php';
 $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 
@@ -28,6 +28,7 @@ $conn = $db_connection->dbConnection();
                 
                   $branch = $_POST['branch'] ;
                   $depart = $_POST['department'] ;
+                  $unit = $_POST['unit'];
                 $fname =    $_POST['fname'] ;
                   $mname =   $_POST['mname'] ;
                  $lname = $_POST['lname'] ;
@@ -98,8 +99,8 @@ $conn = $db_connection->dbConnection();
                   
                   $password = "nsitf@". $password1;
                 
-                 $insert_query = "INSERT INTO `staff_tb`( roles, departmentId, `dash_type`, `firstname`, `middlename`, `lastname`, staff_id, `gender`, `branchId`, `region`, `phone`, `staff_email`, `security_key` )VALUES(:roles,:department,:dash_type,
-                :firstname,:middlename, :lastname,:staff_id, :gender, :branchId, :region, :phone, :staff_email, :security_key )";
+                 $insert_query = "INSERT INTO `staff_tb`( roles, departmentId, `dash_type`, `firstname`, `middlename`, `lastname`, staff_id, `gender`, `branchId`, `region`, `phone`, unit, `staff_email`, `security_key` )VALUES(:roles,:department,:dash_type,
+                :firstname,:middlename, :lastname,:staff_id, :gender, :branchId, :region, :phone, :unit, :staff_email, :security_key )";
 
                 $insert_stmt = $conn->prepare($insert_query);
 
@@ -130,6 +131,8 @@ $conn = $db_connection->dbConnection();
                 
                 
                   $insert_stmt->bindValue(':phone', htmlspecialchars(strip_tags($phone)),PDO::PARAM_STR);
+
+                  $insert_stmt->bindValue(':unit', htmlspecialchars(strip_tags($unit)),PDO::PARAM_STR);
                   
                   
                   

@@ -10,7 +10,8 @@ class Database{
     public $data;
       public $isConnect;
       
-   public function __construct($host="root", $dbname = "ebsdb", $user = "root", $pass = "", $options=[] ) {
+   public function __construct($host="127.0.0.1", $dbname = "nsitfmai_essp", $user = "root", $pass = "", $options=[] ) {
+
           $this->isConnect = TRUE;
           try {
               $this->data = new PDO("mysql:host ={$host}; dbname={$dbname};",$user,$pass, $options);
@@ -21,6 +22,10 @@ class Database{
           }
           
       }
-    
+
+  public function dbConnection()
+  {
+    return $this->data;
+  }
 }
 
