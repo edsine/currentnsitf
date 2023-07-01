@@ -57,7 +57,7 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                          
 
                           <?php foreach($employees as $row){ 
-                          var_dump($row);
+                         
                           $ap = $row['approve_status'];
                            $supervisor = $row['supervisor_office'];
                             $md = $row['md_hr'];
