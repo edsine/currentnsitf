@@ -7,13 +7,11 @@ $query = new Manage();
 
 
 
-
-
   $staff =   $_SESSION['staff'] ;
   
   $staffEmail = $query->getRow("select staffId, staff_email from staff_tb where staffId= $staff");
   
-  
+ 
   $der =   $_SESSION['department'] ;
    $superv = $query->getRow("select staffId, staff_email from staff_tb where departmentId = $der and roles = 9");
   
@@ -21,7 +19,7 @@ $query = new Manage();
   $email = $staffEmail['staff_email'];
   
    $superbEm =    $superv['staff_email'];
-
+$today = Date("Y-m-d");
     
 ?>
 <!DOCTYPE html>
@@ -118,39 +116,40 @@ $query = new Manage();
                     <hr class="my-0" />
                     <div class="card-body">
                       <form id="formAccountSettings" action="processor/new_leave" method="POST"  enctype="multipart/form-data">
-                            $superv
                           <input type="hidden" name="staff" value="<?php echo  $staff ?>" />
                           <input type="hidden" name="staffEmail" value="<?php echo $email ?>" />
                            <input type="hidden" name="superb" value="<?php echo $superbEml ?>" />
                         <div class="row">
                           <div class="mb-3 col-md-6">
-                            <label for="firstName" class="form-label">Date Resume From Last Leave</label>
+                            <label for="firstName" class="form-label">Date Resumed Duty From Last Leave</label>
                             <input
                               name="last_leave"
-                            value="2021-06-18" id="html5-date-input"
+                            value="<?php echo $today; ?>" id="html5-date-input"
                               class="form-control"
                               type="date"
                               
-                              value=""
+                      
                               autofocus
+                              required
                             />
                           </div>
                          
                           <div class="mb-3 col-md-6">
-                            <label for="firstName" class="form-label">Date Requeste, to Commence Present Leave</label>
+                            <label for="firstName" class="form-label">Date Requested to Commence Present Leave</label>
                             <input
                               name="new_leave"
-                            value="2021-06-18" id="html5-date-input"
+                            value="<?php echo $today; ?>" id="html5-date-input"
                               class="form-control"
                               type="date"
                               
-                              value=""
+                 
                               autofocus
+                              required
                             />
                           </div>
                           
                           <div class="mb-3 col-md-6">
-                            <label for="organization" class="form-label">Number Of Days</label>
+                            <label for="organization" class="form-label">Number Of Days Applied For</label>
                             <input
                               type="number"
                               class="form-control"
@@ -158,50 +157,51 @@ $query = new Manage();
                               name="n_days"
                               placeholder="Number of days"
                               value=""
+                              required
                             />
                           </div>
                           
                      
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">Home Address (Contact when on leave)</label>
-                            <textarea type="text" class="form-control" id="address" name="h_address" placeholder="Home Address" /></textarea>
+                            <label for="address" class="form-label">Home Address</label>
+                            <textarea type="text" class="form-control" id="address" name="h_address" placeholder="Home Address" required/></textarea>
                           </div>
                           
                          
                           <div class="row">
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">House Number (Contact when on leave)</label>
-                            <input type="text" class="form-control" id="address" name="houseNum" placeholder="House Number" />
+                            <label for="address" class="form-label">House Number (Contact Address While on Leave)</label>
+                            <input type="text" class="form-control" id="address" name="houseNum" placeholder="House Number" required/>
                           </div>
                  
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">Street Name/Number (Contact when on leave)</label>
-                            <input type="text" class="form-control" id="address" name="st_number" placeholder="Street Name" />
+                            <label for="address" class="form-label">Street Name/Number (Contact Address While on Leave)</label>
+                            <input type="text" class="form-control" id="address" name="st_number" placeholder="Street Name"  required/>
                           </div>
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">District (Contact when on leave)</label>
-                            <input type="text" class="form-control" id="address" name="district" placeholder="District" />
+                            <label for="address" class="form-label">District (Contact Addres While on Leave)</label>
+                            <input type="text" class="form-control" id="address" name="district" placeholder="District" required/>
                           </div>
                           
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">Local Council (Contact when on leave)</label>
-                            <input type="text" class="form-control" id="address" name="lcouncil" placeholder="Local Council" />
+                            <label for="address" class="form-label">Local Council (Contact Addres While on Leave)</label>
+                            <input type="text" class="form-control" id="address" name="lcouncil" placeholder="Local Council" required/>
                           </div>
                                
                            <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">State (Contact when on leave)</label>
-                            <input type="text" class="form-control" id="address" name="state" placeholder="State" />
+                            <label for="address" class="form-label">State (Contact Address While on Leave)</label>
+                            <input type="text" class="form-control" id="address" name="state" placeholder="State" required/>
                           </div>
                         
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">Phone</label>
-                            <input type="text" class="form-control" id="address" name="phone" placeholder="Phone Number" />
+                            <label for="address" class="form-label">Phone (Contact Address While on Leave)</label>
+                            <input type="text" class="form-control" id="address" name="phone" placeholder="Phone Number" required/>
                           </div>
                           
                           
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Name Of Officer To Relieve</label>
-                            <input type="text" class="form-control" id="address" name="officeR" placeholder="Officer to relive" />
+                            <input type="text" class="form-control" id="address" name="officeR" placeholder="Officer to relieve" required/>
                           </div>
                           
                           

@@ -3,6 +3,7 @@ session_start();
 
 require_once '../classes/manage.php';
 $query = new Manage();
+$today = date('Y-m-d');
 
 
 
@@ -123,8 +124,8 @@ $query = new Manage();
                         <div class="row">
                             <div class="mb-3 col-md-6">
                             <label for="firstName" class="form-label">Select Leave Type</label>
-                             <select  name="type" id="lastName" class="form-control" />
-                    <option style="color:red;"><span > -Select Leave type- <span style="color:red;">*</span></span></option>
+                             <select  name="type" id="lastName" class="form-control" required autofocus/>
+                    <option value="">Select Leave Type</option>
                      <?php
                                                                                         require_once "db.php";
                                                                                         $result = mysqli_query($conn,"SELECT * FROM types_leave where status =1 ");
@@ -149,18 +150,20 @@ $query = new Manage();
                               
                               value=""
                               autofocus
+                              required
                             />
                           </div>
                           <div class="mb-3 col-md-6">
                             <label for="firstName" class="form-label">Date Resume From Last Leave</label>
                             <input
                               name="last_leave"
-                            value="2021-06-18" id="html5-date-input"
+                            value="<?php echo $today; ?>" id="html5-date-input"
                               class="form-control"
                               type="date"
                               
                               value=""
                               autofocus
+                              required
                             />
                           </div>
                          
@@ -168,12 +171,13 @@ $query = new Manage();
                             <label for="firstName" class="form-label">Date Requested To Commence Present Leave</label>
                             <input
                               name="new_leave"
-                            value="2021-06-18" id="html5-date-input"
+                            value="<?php echo $today; ?>" id="html5-date-input"
                               class="form-control"
                               type="date"
                               
                               value=""
                               autofocus
+                              required
                             />
                           </div>
                           
@@ -186,50 +190,51 @@ $query = new Manage();
                               name="n_days"
                               placeholder="10"
                               value=""
+                              required
                             />
                           </div>
                           
                      
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Home Address</label>
-                            <textarea type="text" class="form-control" id="address" name="h_address" placeholder="Home Address" /></textarea>
+                            <textarea type="text" class="form-control" id="address" name="h_address" placeholder="Home Address" required /></textarea>
                           </div>
                           
                          
                           <div class="row">
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">House Number</label>
-                            <input type="text" class="form-control" id="address" name="houseNum" placeholder="House Number" />
+                            <input type="text" class="form-control" id="address" name="houseNum" placeholder="House Number" required/>
                           </div>
                  
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Street Name/Number</label>
-                            <input type="text" class="form-control" id="address" name="st_number" placeholder="Street Name/Number" />
+                            <input type="text" class="form-control" id="address" name="st_number" placeholder="Street Name/Number" required/>
                           </div>
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">District</label>
-                            <input type="text" class="form-control" id="address" name="district" placeholder="District" />
+                            <input type="text" class="form-control" id="address" name="district" placeholder="District" required/>
                           </div>
                           
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Local Council</label>
-                            <input type="text" class="form-control" id="address" name="lcouncil" placeholder="Local Council" />
+                            <input type="text" class="form-control" id="address" name="lcouncil" placeholder="Local Council" required/>
                           </div>
                                
                            <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">State</label>
-                            <input type="text" class="form-control" id="address" name="state" placeholder="State" />
+                            <input type="text" class="form-control" id="address" name="state" placeholder="State" required/>
                           </div>
                         
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Phone</label>
-                            <input type="text" class="form-control" id="address" name="phone" placeholder="Phone Number" />
+                            <input type="text" class="form-control" id="address" name="phone" placeholder="Phone Number" required/>
                           </div>
                           
                           
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Name Of Officer To Relieve</label>
-                            <input type="text" class="form-control" id="address" name="officeR" placeholder="Officer to relive" />
+                            <input type="text" class="form-control" id="address" name="officeR" placeholder="Officer to relive" required/>
                           </div>
                           
                           
@@ -238,7 +243,7 @@ $query = new Manage();
                          
                          <div class="mb-3 col-md-6">
                             <label for="lastName" class="form-label">Upload Signature</label>
-                            <input class="form-control" type="file" name="sign" id="lastName"  accept="" />
+                            <input class="form-control" type="file" name="sign" id="lastName"  accept="" required/>
                           </div>
                           
                          

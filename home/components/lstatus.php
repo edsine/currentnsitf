@@ -57,7 +57,7 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                          
 
                           <?php foreach($employees as $row){ 
-                          
+                         
                           $ap = $row['approve_status'];
                            $supervisor = $row['supervisor_office'];
                             $md = $row['md_hr'];
@@ -65,7 +65,7 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                           ?>
                         <tr>
                              <td><?php echo $row['leave_name'] ?></td>
-                               <td><? echo $row['date_start_new'] ?></td>
+                               <td><?php echo $row['date_start_new'] ?></td>
                             <td><?php echo $row['num_days'] ?></td>
                             <td><?php echo $row['officer_relieve'] ?></td>
                             
