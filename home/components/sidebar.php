@@ -122,6 +122,12 @@ $role = $_SESSION['role'];
                     <div data-i18n="Connections" >View Employers</div>
                   </a>
                 </li>
+
+                <li class="menu-item">
+                  <a href="view-units" class="menu-link">
+                    <div data-i18n="Connections" >Units</div>
+                  </a>
+                </li>
               </ul>
             </li>
             
