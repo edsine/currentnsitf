@@ -10,7 +10,7 @@ class Database{
     public $data;
       public $isConnect;
       
-   public function __construct($host="127.0.0.1", $dbname = "nsitfmai_essp", $user = "root", $pass = "", $options=[] ) {
+   public function __construct($host="127.0.0.1", $dbname = "ebsdb", $user = "root", $pass = "", $options=[] ) {
 
           $this->isConnect = TRUE;
           try {
