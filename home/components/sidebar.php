@@ -147,7 +147,7 @@ $role = $_SESSION['role'];
                 </li>
                 <li class="menu-item">
                   <a href="dtas_reviewed" class="menu-link">
-                    <div data-i18n="Notifications" >Reviewed DTA's</div>
+                    <div data-i18n="Notifications" >Reviewed DTA</div>
                   </a>
                 </li>
                 
@@ -756,7 +756,7 @@ $role = $_SESSION['role'];
                 </li>
                 <li class="menu-item">
                   <a href="dtas_reviewed" class="menu-link">
-                    <div data-i18n="Notifications" >Reviewed DTA's</div>
+                    <div data-i18n="Notifications" >Reviewed DTA</div>
                   </a>
                 </li>
                 
@@ -1960,13 +1960,13 @@ $role = $_SESSION['role'];
               </a>
              <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="index" class="menu-link">
-                    <div data-i18n="Account" >New DTA's Request</div>
+                  <a href="new_dta" class="menu-link">
+                    <div data-i18n="Account" >New DTA Request</div>
                   </a>
                 </li>
                 <li class="menu-item">
                   <a href="submitted_dtas" class="menu-link">
-                    <div data-i18n="Notifications" >Viewed DTA's</div>
+                    <div data-i18n="Notifications" >Viewed DTA</div>
                   </a>
                 </li>
                
@@ -2563,12 +2563,12 @@ $role = $_SESSION['role'];
              <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="new_dta" class="menu-link">
-                    <div data-i18n="Account" >New DTA's Request</div>
+                    <div data-i18n="Account" >New DTA Request</div>
                   </a>
                 </li>
                 <li class="menu-item">
                   <a href="submitted_dtas" class="menu-link">
-                    <div data-i18n="Notifications" >Viewed DTA's</div>
+                    <div data-i18n="Notifications" >Viewed DTA</div>
                   </a>
                 </li>
                
