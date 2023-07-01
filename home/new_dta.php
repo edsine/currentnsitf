@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>NSITF ebs new staff</title>
+    <title>NSITF DTA Request</title>
 
     <meta name="description" content="" />
 
@@ -93,7 +93,7 @@
                     </div>
               
                     <div class="card-body">
-                      <form action="./processor/registry_val" method="POST">
+                      <form action="./processor/registry_val" method="POST" enctype="multipart/form-data">
                           
                           
                            <div class="mb-3">
@@ -121,10 +121,11 @@
                               type="text"
                               class="form-control"
                               id="basic-icon-default-fullname"
-                              placeholder="First Name"
+                              placeholder="Purpose of Travel"
                               aria-label="First Name"
                               name="fname"
                               aria-describedby="basic-icon-default-fullname2"
+
                             />
                           </div>
                         </div>
@@ -141,7 +142,7 @@
                               type="text"
                               class="form-control"
                               id="basic-icon-default-fullname"
-                              placeholder="Submitted By, Email "
+                              placeholder="Destination"
                               aria-label="Middle Name"
                               name="femail"
                               aria-describedby="basic-icon-default-fullname2"
@@ -158,7 +159,8 @@
                             
                             <input
                              required
-                              type="text"
+                              type="date"
+
                               class="form-control"
                               id="basic-icon-default-fullname"
                               placeholder="Document Name"
@@ -183,7 +185,7 @@
                               type="text"
                               class="form-control"
                               id="basic-icon-default-fullname"
-                              placeholder="Submitted By, Email "
+                              placeholder="Estimated Expenses "
                               aria-label="Middle Name"
                               name="femail"
                               aria-describedby="basic-icon-default-fullname2"
