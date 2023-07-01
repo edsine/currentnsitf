@@ -7,10 +7,10 @@
  */
 
 class Database{
-    protected $data;
+    public $data;
       public $isConnect;
       
-   public function __construct($host="178.159.5.249", $dbname = "nsitfmai_essp", $user = "nsitfmai_ebs2", $pass = "ebs@nsitf", $options=[] ) {
+   public function __construct($host="root", $dbname = "ebs", $user = "root", $pass = "Mkpanama1", $options=[] ) {
           $this->isConnect = TRUE;
           try {
               $this->data = new PDO("mysql:host ={$host}; dbname={$dbname};",$user,$pass, $options);
