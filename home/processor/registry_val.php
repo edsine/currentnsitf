@@ -10,12 +10,13 @@ function msg($success,$status,$user,$message,$extra = []){
     ],$extra);
 }
         
-        require __DIR__.'/classes/Database.php';
+        require __DIR__.'/classes/database.php';
 $db_connection = new Database();
-$conn = $db_connection->dbConnection();
+$conn = $db_connection->data;
 
  $targetDir = "../../DOCUMENTS/REGISTRY/";
-$fileName = basename($_FILES["doc"]["name"]);
+$fileName = basename($_FILES["file"]["name"]);
+
 $targetFilePath = $targetDir . $fileName;
 $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
 
@@ -40,11 +41,12 @@ $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
         try{
             
              $allowTypes = array('jpg','png','jpeg','pdf');
+
           if(in_array($fileType, $allowTypes)){
+
       
-        if(move_uploaded_file($_FILES["doc"]["tmp_name"], $targetFilePath)){
- 
- 
+        if(move_uploaded_file($_FILES["file"]["tmp_name"], $targetFilePath)){
+
                 
                  $insert_query = "INSERT INTO registry_doc(staffId, from_name, `from_email`, `document_name`, `doc_path`, comment )VALUES(:staffId,:from_name,:from_email,
                 :document_name,:doc_path, :comment)";
@@ -68,7 +70,7 @@ $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
               
                $result = $insert_stmt->execute();
                 $employer = $conn->lastInsertId();
-                
+               
                
                 
                 if($result){
@@ -78,7 +80,7 @@ $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
     
             header('location:../process_doc');
                     
-               }
+               } 
 
 
         
@@ -88,6 +90,7 @@ $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
 
         }
         catch(PDOException $e){
+
             $returnData = msg(0,500,'fail',$e->getMessage());
         }
     
