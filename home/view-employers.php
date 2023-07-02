@@ -168,7 +168,7 @@ session_start();
           responsive:true,
           "processing":true,
           "serverSide":true,
-          "ajax":"all_employers_datatable.php"
+          "ajax":"employer_datatables.php?table_type=3"
         }
           
           );

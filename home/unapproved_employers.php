@@ -168,7 +168,7 @@ session_start();
           responsive:true,
           "processing":true,
           "serverSide":true,
-          "ajax":"unapproved_employers_datatable"
+          "ajax":"employer_datatables.php?table_type=2"
         }
           
           );
