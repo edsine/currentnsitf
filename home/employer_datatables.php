@@ -2,7 +2,7 @@
 require_once('../classes/datatables.php');
 $table_type = $_GET["table_type"];
 $return = "";
-try{
+try{ 
 	switch ($table_type) {
 		case 1:
 		$table = 'employer_tb';
@@ -46,18 +46,18 @@ try{
 		$table = 'employer_tb';
 		$primaryKey = 'employer_id';
 		$columns = array(
-array( 'db' => 'company_name',  'dt' => 0),
-array( 'db' => 'ecs_number',   'dt' => 1 ),
-array( 'db' => 'rc_number',     'dt' => 2 ),
-array( 'db' => 'bussiness_area',     'dt' => 3 ),
-array( 'db' => 'createdAt',     'dt' => 4 ),
-array( 'db' => 'employer_id', 'dt' => 5 )
-);
-require_once '../classes/datatables.php';
+			array( 'db' => 'company_name',  'dt' => 0),
+			array( 'db' => 'ecs_number',   'dt' => 1 ),
+			array( 'db' => 'rc_number',     'dt' => 2 ),
+			array( 'db' => 'bussiness_area',     'dt' => 3 ),
+			array( 'db' => 'createdAt',     'dt' => 4 ),
+			array( 'db' => 'employer_id', 'dt' => 5 )
+		);
+		require_once '../classes/datatables.php';
 
-$return =  json_encode(
-\SSP::simple( $_GET, $table, $primaryKey, $columns)
-);
+		$return =  json_encode(
+			\SSP::simple( $_GET, $table, $primaryKey, $columns)
+		);
 		break;
 		default:
 		$return = "";
