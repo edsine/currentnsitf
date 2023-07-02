@@ -17,8 +17,10 @@ $empNumm = $query->getRow("select count(*) as totalEmp from employees where empl
 
 $numbeOfemp = $empNumm['totalEmp'];
 $comp_nam= $comp['company_name'];
-$ecsnum = $comp['ecs'];
+$ecsnum = $comp['ecs_number'];
 $contactName = $comp['desk_surname']. ' ' .$comp['desk_firstname'];
+$contactEmail = $comp['c_email'];
+$contactPhone = $comp['desk_phone'];
 
 
 
@@ -129,8 +131,10 @@ $contactName = $comp['desk_surname']. ' ' .$comp['desk_firstname'];
                       <form action="./processor/inspection_report" method="POST" enctype="multipart/form-data">
                           
                           <p>Employer Name :<?php echo $comp_nam ?></p>
-                     <p>ECS Number :</p>
-                      <p>Contact Name : <?php echo $contact_name ?></p>
+                     <p>ECS Number : <?php echo $ecsnum; ?></p>
+                    <p>Contact Name : <?php echo $contactName; ?></p>
+                    <p>Contact Email : <?php echo $contactEmail; ?></p>
+                    <p>Contact Phone : <?php echo $contactPhone; ?></p>
                      <p>Submitted Number of Employees : <?php echo $numbeOfemp ?> </p>
                     
 

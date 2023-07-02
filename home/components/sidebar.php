@@ -13,24 +13,24 @@ $query = new Manage();
 $branch = trim($_SESSION['branch']);
 //var_dump($_SESSION);
 
-//$branchD = $query->getRow("select * from all_branch where branch_id = $branch"); 
+$branchD = $query->getRow("select * from all_branch where branch_id = $branch"); 
 
-$dsn = "mysql:host=localhost;dbname=ebsdb";
-$username = "root";
-$password = "";
+// $dsn = "mysql:host=localhost;dbname=ebs";
+// $username = "root";
+// $password = "Mkpanama1";
 
-try {
-    $pdo = new PDO($dsn, $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo "Database connection failed: " . $e->getMessage();
-    exit();
-}
+// try {
+//     $pdo = new PDO($dsn, $username, $password);
+//     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+// } catch (PDOException $e) {
+//     echo "Database connection failed: " . $e->getMessage();
+//     exit();
+// }
 
 // Execute the query and fetch a single value
-$getbranch = "select * from all_branch where branch_id = $branch";
-$stmt = $pdo->query($getbranch);
-$branchD = $stmt->fetchColumn();
+// $getbranch = "select * from all_branch where branch_id = $branch";
+// $stmt = $pdo->query($getbranch);
+// $branchD = $stmt->fetchColumn();
 
 $myBranch = $branchD['branch_name'];
 
@@ -98,7 +98,7 @@ $role = $_SESSION['role'];
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Administration</div>
+                <div data-i18n="Account Settings">Employers</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
@@ -118,23 +118,20 @@ $role = $_SESSION['role'];
                     <div data-i18n="Connections">Approved Employers</div>
                   </a>
                 </li>
-                
-                 <li class="menu-item">
-                  <a href="" class="menu-link">
-                    <div data-i18n="Accordion" >All Branch</div>
-                  </a>
-                </li>
-               
-                
-                
                 <li class="menu-item">
                   <a href="unapproved_employers" class="menu-link">
                     <div data-i18n="Connections" >Unapproved Employers</div>
                   </a>
                 </li>
-               
+                
+                <!--  <li class="menu-item">
+                  <a href="" class="menu-link">
+                    <div data-i18n="Accordion" >All Branch</div>
+                  </a>
+                </li> -->
                
                 
+<<<<<<< HEAD
                  <li class="menu-item">
                   <a href="view-employers" class="menu-link">
                     <div data-i18n="Connections" >View Employers</div>
@@ -146,6 +143,11 @@ $role = $_SESSION['role'];
                     <div data-i18n="Connections" >Units</div>
                   </a>
                 </li>
+=======
+                
+                
+               
+>>>>>>> 08483de2e009ab8b9683c92f696aa0fe3f97358f
               </ul>
             </li>
             
@@ -439,8 +441,7 @@ $role = $_SESSION['role'];
          <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
             <a href="" class="app-brand-link">
-              <span class="app-brand-logo demo">
-          
+              <span class="app-brand-logo demo">     
               </span>
              <span class="app-brand-text  " style="color:#618f64; font-size:23px; font-weight:bold;">     e-NSITF    </span>
             </a>
@@ -467,13 +468,6 @@ $role = $_SESSION['role'];
                 <div data-i18n="Analytics">INSPECTION</div>
               </a>
             </li>
-
-      
-           
-
-            
-         
-            
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-box"></i>
@@ -792,7 +786,7 @@ $role = $_SESSION['role'];
                 </li>
                 <li class="menu-item">
                   <a href="dtas_reviewed" class="menu-link">
-                    <div data-i18n="Notifications" >Reviewed DTA</div>
+                    <div data-i18n="Notifications" >Reviewed DTA Requests</div>
                   </a>
                 </li>
                 
@@ -1976,7 +1970,7 @@ $role = $_SESSION['role'];
              <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="view_memos" class="menu-link">
-                    <div data-i18n="Account" >view Memos</div>
+                    <div data-i18n="Account" >View Memos</div>
                   </a>
                 </li>
                 <li class="menu-item">
@@ -2002,7 +1996,7 @@ $role = $_SESSION['role'];
                 </li>
                 <li class="menu-item">
                   <a href="submitted_dtas" class="menu-link">
-                    <div data-i18n="Notifications" >Viewed DTA</div>
+                    <div data-i18n="Notifications" >My DTA Applications</div>
                   </a>
                 </li>
                
@@ -2578,7 +2572,7 @@ $role = $_SESSION['role'];
              <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="view_memos" class="menu-link">
-                    <div data-i18n="Account" >view Memos</div>
+                    <div data-i18n="Account" >View Memos</div>
                   </a>
                 </li>
                 <li class="menu-item">
