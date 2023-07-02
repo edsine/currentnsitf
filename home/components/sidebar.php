@@ -427,8 +427,7 @@ $role = $_SESSION['role'];
          <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
             <a href="" class="app-brand-link">
-              <span class="app-brand-logo demo">
-          
+              <span class="app-brand-logo demo">     
               </span>
              <span class="app-brand-text  " style="color:#618f64; font-size:23px; font-weight:bold;">     e-NSITF    </span>
             </a>
@@ -455,13 +454,6 @@ $role = $_SESSION['role'];
                 <div data-i18n="Analytics">INSPECTION</div>
               </a>
             </li>
-
-      
-           
-
-            
-         
-            
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-box"></i>
@@ -762,7 +754,7 @@ $role = $_SESSION['role'];
                 </li>
                 <li class="menu-item">
                   <a href="dtas_reviewed" class="menu-link">
-                    <div data-i18n="Notifications" >Reviewed DTA</div>
+                    <div data-i18n="Notifications" >Reviewed DTA Requests</div>
                   </a>
                 </li>
                 
@@ -1972,7 +1964,7 @@ $role = $_SESSION['role'];
                 </li>
                 <li class="menu-item">
                   <a href="submitted_dtas" class="menu-link">
-                    <div data-i18n="Notifications" >Viewed DTA</div>
+                    <div data-i18n="Notifications" >My DTA Applications</div>
                   </a>
                 </li>
                
