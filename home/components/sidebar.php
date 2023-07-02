@@ -98,7 +98,7 @@ $role = $_SESSION['role'];
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Administration</div>
+                <div data-i18n="Account Settings">Employers</div>
               </a>
               <ul class="menu-sub">
                 <li class="menu-item">
@@ -118,28 +118,22 @@ $role = $_SESSION['role'];
                     <div data-i18n="Connections">Approved Employers</div>
                   </a>
                 </li>
-                
-                 <li class="menu-item">
-                  <a href="" class="menu-link">
-                    <div data-i18n="Accordion" >All Branch</div>
-                  </a>
-                </li>
-               
-                
-                
                 <li class="menu-item">
                   <a href="unapproved_employers" class="menu-link">
                     <div data-i18n="Connections" >Unapproved Employers</div>
                   </a>
                 </li>
-               
+                
+                <!--  <li class="menu-item">
+                  <a href="" class="menu-link">
+                    <div data-i18n="Accordion" >All Branch</div>
+                  </a>
+                </li> -->
                
                 
-                 <li class="menu-item">
-                  <a href="view-employers" class="menu-link">
-                    <div data-i18n="Connections" >View Employers</div>
-                  </a>
-                </li>
+                
+                
+               
               </ul>
             </li>
             

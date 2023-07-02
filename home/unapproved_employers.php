@@ -101,6 +101,7 @@ session_start();
                         <th>ECS Number</th>
                         <th>RC Number</th>
                         <th>Bussiness Type</th>
+                        <th>Approval Status</th>
                         <th>Date Registered</th>
                     </tr>
                 </thead>
