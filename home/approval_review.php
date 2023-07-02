@@ -123,31 +123,23 @@ echo $emp;
                             <div class="" style="width:70%;">
                   <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                         <h3 class="mb-0">HRM HOD REVIEW </h3>
+                         <h3 class="mb-0">LEAVE PROCESSING OFFICER REVIEW </h3>
                         
-                    
-                      <p> <?php if(isset($_SESSION['errors'])){ echo "<span style='color:red'>" .$_SESSION['errors']. "</span>" ;} ?></p>
                    
                     </div>
-                    
-                      
-                    
-                    
-                       
                    
                     <div class="card-body">
                         <h5 class="mb-0">Personal Info</h5>
                         <br>
-                      <form action="./processor/s_review" method="POST" enctype="multipart/form-data">
+                      <form action="./processor/hr_leave_approval" method="POST" enctype="multipart/form-data">
                           
                     <p>Staff FullName : &nbsp;<?php echo $comp['firstname'].'&nbsp; '.$comp['lastname'].' &nbsp;'.$comp['middlename'] ?></p>
-                     <p>Work ID :  <?php echo $comp['work_id'] ?></p>
                      
                       <p>Phone: <?php echo $comp['phone'] ?></p>
                       
                       <p>Email Address: <?php echo $comp['staff_email'] ?></p>
                       
-                      <p>Singnature: <a href="">View</a></p>
+                      <p>Signature: <a href="">View</a></p>
                       
                        <p>Application Letter: <a href="">View</a></p>
                       
@@ -176,12 +168,12 @@ echo $emp;
                       
                         <p>Local Council: <?php echo $comp['local_council'] ?></p>
                         
-                        <p>State: <?php echo $comp['State'] ?></p>
+                        <p>State: <?php echo $comp['state'] ?></p>
                       
                       
                       
                        
-                          <h3 class="mb-0">Supervisor Review report</h3>
+                          <h3 class="mb-0">HOD Review report</h3>
                       <br>
                      
                       <p>Approved Number Of days: <?php echo $report['approved_days'] ?></p>
@@ -189,12 +181,6 @@ echo $emp;
                       <p>Approved Commence Date: <?php echo $report['approved_date'] ?></p>
                       
                       <p>Comments:<br>[ <?php echo $report['comments'] ?> ]</p>
-                      
-                      
-                      
-
-                      
-
 
                         <?php if(isset($_SESSION['success'])){ ?>
                         <p style="font-size:18px; color:green;">Leave request sent successfully </p>
@@ -207,33 +193,10 @@ echo $emp;
                       
                       <input type = "hidden" value="<?php echo $leaveId ?>" name="leaveId" />
                       
-                       <input type = "hidden" value="app" name="review" />
-                    
-    
-                          
-                      
-                        
-                       
-                        <div class="mb-3">
-                        <label for="defaultSelect" class="form-label">Review Comments</label>
-                        <textarea   name="comment" id="defaultSelect" class="form-control">
-                            
-                          
-                        </textarea>
-                      </div>
-                      
+                       <input type = "hidden" value="app" name="review" />                      
 
-                       
-                        
-                       
-
-                       
-
-                    
-
-                       
                         <button type="submit" class="btn btn-primary">APPROVE LEAVE</button>
-                        <button type="submit" class="btn btn-primary">Decline ()</button>
+                        <a href="hr_decline_leave_request?cert=<?php echo $leaveId ?>" type="button" class="btn btn-primary">Decline</a>
                       </form>
                        
                     </div>

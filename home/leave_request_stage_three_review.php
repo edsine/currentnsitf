@@ -122,22 +122,14 @@ echo $emp;
                             <div class="" style="width:70%;">
                   <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                         <h3 class="mb-0">Supervisor Review </h3>
-                        
-                    
+                         <h3 class="mb-0">HOD Review </h3>
                       <p></p>
                    
                     </div>
-                    
-                      
-                    
-                    
-                       
-                   
                     <div class="card-body">
                         <h5 class="mb-0">Personal Info</h5>
                         <br>
-                      <form action="./processor/s_review" method="POST" enctype="multipart/form-data">
+                      <form action="./processor/hod_update_leave_request" method="POST" enctype="multipart/form-data">
                           
                     <p>Staff FullName : &nbsp;<?php echo $comp['firstname'].'&nbsp; '.$comp['lastname'].' &nbsp;'.$comp['middlename'] ?></p>
                      
@@ -186,8 +178,6 @@ echo $emp;
                        <h5 class="mb-0">Review Report</h5>
                        <hr>
                       <input type = "hidden" value="<?php echo $staff ?>" name="officer" />
-                      
-                        <input type = "hidden" value="sup" name="review" />
                       
                       <input type = "hidden" value="<?php echo $leaveId ?>" name="leaveId" />
                       <input type = "hidden" value="<?php echo $logged_in_user_role ?>" name="logged_in_user_role" />
@@ -240,18 +230,7 @@ echo $emp;
                         <label for="defaultSelect" class="form-label">Review Comments</label>
                         <textarea name="comment" id="" class="form-control" rows="3" cols="80"></textarea>
                       </div>
-                      
-
-                       
-                        
-                       
-
-                       
-
-                    
-
-                       
-                        <button type="submit" class="btn btn-primary">submit(Forward to HOD)</button>
+                        <button type="submit" class="btn btn-primary">Submit (Forward to HR)</button>
                       </form>
                     </div>
                   </div>

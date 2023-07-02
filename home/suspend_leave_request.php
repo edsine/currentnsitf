@@ -117,141 +117,46 @@ echo $emp;
               
               <div class="row" style="font-weight:bold;">
                 <!-- Order Statistics -->
-                
-                
-                            <div class="" style="width:70%;">
+                  <div class="" style="width:70%;">
                   <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                         <h3 class="mb-0">Supervisor Review </h3>
+                         <h3 class="mb-0">Would you like to proceed and suspend this leave request?</h3>
                         
                     
                       <p></p>
                    
                     </div>
-                    
-                      
-                    
-                    
-                       
-                   
+
                     <div class="card-body">
-                        <h5 class="mb-0">Personal Info</h5>
                         <br>
-                      <form action="./processor/s_review" method="POST" enctype="multipart/form-data">
+                      <form action="./processor/cancel_leave_request" method="POST" enctype="multipart/form-data">
                           
-                    <p>Staff FullName : &nbsp;<?php echo $comp['firstname'].'&nbsp; '.$comp['lastname'].' &nbsp;'.$comp['middlename'] ?></p>
-                     
-                      <p>Phone: <?php echo $comp['phone'] ?></p>
-                      
-                      <p>Email Address: <?php echo $comp['staff_email'] ?></p>
-                      
-                      <p>Signature: <a href="">View</a></p>
-                      
-                       <p>Application Letter: <a href="">View</a></p>
-                      
+                    <p>Staff FullName : &nbsp;<?php echo $comp['firstname'].'&nbsp; '.$comp['lastname'].' &nbsp;'.$comp['middlename'] ?></p> 
                       <hr/>
                       
                        <h5 class="mb-0">Leave Info</h5>
                        <br>
-                      <p>Leave Type : <?php echo $comp['type_name'] ?></p>
                      <p>Last Leave :  <?php echo $comp['date_last_leave'] ?></p>
                      <p>Leave Comence Date : <?php echo $comp['date_start_new'] ?></p>
                        <p>Requested Number Of Days: <?php echo $comp['num_days'] ?></p>
-                       <p>Officer Relieve: <?php echo $comp['officer_relieve'] ?></p>
-                       
-                         <hr>
-                         
-                          <h5 class="mb-0">Contact While On Leave</h5>
-                      <br>
-                     
-                      <p>Home Address: <?php echo $comp['home_address'] ?></p>
-                      
-                      <p>House Number: <?php echo $comp['house_number'] ?></p>
-                      
-                      <p>Street Name/Number: <?php echo $comp['street_nameNumber'] ?></p>
-                      
-                      <p>District: <?php echo $comp['district'] ?></p>
-                      
-                        <p>Local Council: <?php echo $comp['local_council'] ?></p>
-                        
-                        <p>State: <?php echo $comp['State'] ?></p>
-                      
-                      
 
+                         <hr>
                         <?php if(isset($_SESSION['success'])){ ?>
                         <p style="font-size:18px; color:green;">Leave request sent successfully </p>
                         
                         <?php } ?>
-                     
-                       <h5 class="mb-0">Review Report</h5>
-                       <hr>
                       <input type = "hidden" value="<?php echo $staff ?>" name="officer" />
                       
                         <input type = "hidden" value="sup" name="review" />
                       
                       <input type = "hidden" value="<?php echo $leaveId ?>" name="leaveId" />
                       <input type = "hidden" value="<?php echo $logged_in_user_role ?>" name="logged_in_user_role" />
-                      <div class="mb-3">
-                        <label for="defaultSelect" class="form-label">Approved Number Of Days</label>
-                       
-                                <div class="input-group input-group-merge">
-                            <span id="basic-icon-default-fullname2" class="input-group-text"
-                              ><i class="bx bx-user"></i
-                            ></span>
-                            <input
-                            
-                             required
-                              type="number"
-                              class="form-control"
-                              id="basic-icon-default-fullname"
-                              placeholder="Enter number of days"
-                              aria-label="Middle Name"
-                              name="app_days"
-                              aria-describedby="basic-icon-default-fullname2"
-                            />
-                          </div>
-                      </div>
-                       
-    
-                          
                         <div class="mb-3">
-                          <label class="form-label" for="basic-icon-default-fullname">Approved Commence Date</label>
-                          <div class="input-group input-group-merge">
-                            <span id="basic-icon-default-fullname2" class="input-group-text"
-                              ><i class="bx bx-user"></i
-                            ></span>
-                            <input
-                            
-                             required
-                              type="date"
-                              class="form-control"
-                              id="basic-icon-default-fullname"
-                              placeholder="Approved Commence date"
-                              aria-label="Middle Name"
-                              name="app_date"
-                              aria-describedby="basic-icon-default-fullname2"
-                            />
-                          </div>
-                        </div>
-                        
-                        
-                       
-                        <div class="mb-3">
-                        <label for="defaultSelect" class="form-label">Review Comments</label>
+                        <label for="defaultSelect" class="form-label">Remarks</label>
                         <textarea name="comment" id="" class="form-control" rows="3" cols="80"></textarea>
                       </div>
-                      
 
-                       
-                        
-                       
-
-                       
-
-                    
-
-                       
-                        <button type="submit" class="btn btn-primary">submit(Forward to HOD)</button>
+                        <button type="submit" class="btn btn-primary">Suspend</button>
                       </form>
                     </div>
                   </div>
