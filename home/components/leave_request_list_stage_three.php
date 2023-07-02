@@ -19,7 +19,7 @@ $query = new Manage();
 //$ucount = $uploadCount['upCount'];
 
 //$employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type=c.leaveT_id and a.supervisor_office = 2  ");
-$stage = 1; //Supervisors should see leave request created by "USER" role
+$stage = 2; //HOD should see leave request reviewed by "SUPERVISOR" role
 $staff =$_SESSION['staff'];
 $staff_detail = $query->getRow("select departmentId from staff_tb where staffId= $staff");
 $departmentid = $staff_detail['departmentId'];
@@ -71,7 +71,7 @@ $users_to_review = $query->getRows("select leave_request.leaveId as leave_id, st
                             <td><?php echo $row['date_created']; ?></td>
                           <td>
                             <div class="dropdown">
-                                  <a href="leave_review1?cert=<?php echo $row['leave_id'] ?>" type="button" style="color:white;" class="btn btn-primary">Review Leave</a>
+                                  <a href="leave_request_stage_three_review?cert=<?php echo $row['leave_id'] ?>" type="button" style="color:white;" class="btn btn-primary">Review Leave</a>
                             </div>
                           </td>
                         </tr>

@@ -6,14 +6,6 @@ if(!isset($_SESSION['admin-log'])){
 }
 
 
-$account =  $_SESSION['role'] ;
-
-$branch =  $_SESSION['fbranch'];
-
-
-
-
-
 ?>
 <!DOCTYPE html>
 
@@ -32,12 +24,12 @@ $branch =  $_SESSION['fbranch'];
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>EBS</title>
+    <title>Employer Account</title>
 
     <meta name="description" content="" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="icon" type="image/x-icon" href="../../assets/img/logo1.png" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -61,21 +53,18 @@ $branch =  $_SESSION['fbranch'];
     <link rel="stylesheet" href="../assets/vendor/libs/apex-charts/apex-charts.css" />
 
     <!-- Page CSS -->
-
-    <!-- Helpers -->
-    <script src="../assets/vendor/js/helpers.js"></script>
+    
     
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
   <link rel="stylesheet" href="jquery/dataTables.bootstrap.min.css" />
   <link rel="stylesheet" type="text/css"    href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"></link>
 
+    <!-- Helpers -->
+    <script src="../assets/vendor/js/helpers.js"></script>
+
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../assets/js/config.js"></script>
-    
-    
-    
-    
   </head>
 
   <body>
@@ -83,14 +72,14 @@ $branch =  $_SESSION['fbranch'];
     <div class="layout-wrapper layout-content-navbar">
       <div class="layout-container">
         <!-- Menu -->
-           <?php include("components/sidebar.php"); ?>
+<?php include("components/sidebar.php"); ?>
         <!-- / Menu -->
 
         <!-- Layout container -->
         <div class="layout-page">
           <!-- Navbar -->
 
-        <?php include("components/navbar.php"); ?>
+          <?php include("components/navbar.php") ?>
           <!-- / Navbar -->
 
           <!-- Content wrapper -->
@@ -98,27 +87,19 @@ $branch =  $_SESSION['fbranch'];
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-                       
               <div class="row">
-             
-                <!--/ Order Statistics -->
-
-          
-                <!--/ Expense Overview -->
-
-                <!-- Transactions -->
+                <!-- Order Statistics -->
                 
                 
-                <!--/ Transactions -->
+                
+                
+                  <?php include('components/units.php') ?>
+              
               </div>
-                     
-            <?php include("components/leave_request_list_stage_three.php"); ?>   
-                      
             </div>
             <!-- / Content -->
 
-            <!-- Footer -->
-          <?php include("components/footer.php"); ?>
+                <?php include("components/footer.php") ?>
             <!-- / Footer -->
 
             <div class="content-backdrop fade"></div>

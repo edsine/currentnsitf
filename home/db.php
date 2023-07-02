@@ -1,9 +1,9 @@
 <?php
 
-$servername='localhost';
+$servername='127.0.0.1';
 $username='root';
 $password='';
-$dbname = "ebsdb";
+$dbname = "nsitfmai_essp";
 
 $conn=mysqli_connect($servername,$username,$password,"$dbname");
       if(!$conn){

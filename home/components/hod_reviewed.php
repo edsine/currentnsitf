@@ -84,10 +84,10 @@ $employees = $query->getRows("select concat(staff_tb.firstname, ' ',staff_tb.las
                             <td><span class="badge bg-label-primary me-1"> <?php echo $row['leave_status'] ?></span></td>
                           <td>
                             <div class="dropdown">
-                                  <a href="edit_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white;">Edit Review</a>
+                                  <a href="hod_edit_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white;">Edit Review</a>
                                    
                                    
-                                     <a href="suspend_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white">Suspend Review</a>
+                                     <a href="hod_suspend_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white">Suspend Review</a>
                                    
                             </div>
                           </td>
