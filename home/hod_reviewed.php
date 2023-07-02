@@ -107,13 +107,19 @@ $branch =  $_SESSION['fbranch'];
                 <!--/ Expense Overview -->
 
                 <!-- Transactions -->
+                <?php if(isset($_SESSION['rvSuccess'])){ ?>
+               <script>alert("Leave review is successful, Leave processing forward to HR")</script>
                 
+                <?php } ?>
+                  <?php unset($_SESSION["rvSuccess"]) ?>
+                  
                 
                 <!--/ Transactions -->
               </div>
-                     
-            <?php include("components/leave_request_list_stage_three.php"); ?>   
-                      
+                         
+                          <?php include("components/hod_reviewed.php"); ?>   
+                        
+                  
             </div>
             <!-- / Content -->
 

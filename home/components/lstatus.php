@@ -35,7 +35,6 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                             <th>Leave Type</th>
                           <th>Commence Date</th>
                           <th>Number Of Days</th>
-                          <th>Officer to Relieve</th>
                           
                           <th>Supervisor Review (status) </th>
                           
@@ -67,7 +66,6 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                              <td><?php echo $row['leave_name'] ?></td>
                                <td><?php echo $row['date_start_new'] ?></td>
                             <td><?php echo $row['num_days'] ?></td>
-                            <td><?php echo $row['firstname'].' '.$row['lastname'] ?></td>
                             
                              <td>  <?php if($supervisor == 2){  ?>
                               

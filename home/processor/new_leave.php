@@ -85,7 +85,7 @@
 
      $insert_query = "INSERT INTO leave_request( staff_id, type, `date_last_leave`, `date_start_new`, `num_days`, `home_address`,house_number, `street_nameNumber`, `district`, `local_council`, `state`, `phone`, `officer_to_relieve`, `signature_path`  )VALUES(:staff_id,:type,:date_last_leave,:date_start_new,:number_days,:home_address,:house_number, :street_nameNumber,:district, :local_council, :state,:phone,:officer_to_relieve,:signature_path)";
 
-     $insert_query2 = "INSERT INTO leave_stage( leave_id, stage) VALUES(:leave_id,:stage)";
+     $insert_query2 = "INSERT INTO leave_stage( leave_id, stage, leave_status) VALUES(:leave_id,:stage, :leave_status)";
 
      $conn->begintransaction();
      $insert_stmt = $conn->prepare($insert_query);
@@ -121,9 +121,12 @@
      $result = $insert_stmt->execute();
      $leave_id = $conn->lastInsertId();
 
+     $stage = 1; //default stage for USER
+     $leave_status = 1; //0 = suspended; 1= still active; 2=approved
      $insert_stmt2 = $conn->prepare($insert_query2);
      $insert_stmt2->bindValue(':leave_id',$leave_id,PDO::PARAM_INT);
      $insert_stmt2->bindValue(':stage',$stage,PDO::PARAM_INT);
+     $insert_stmt2->bindValue(':leave_status',$leave_status,PDO::PARAM_INT);
      $result2 = $insert_stmt2->execute();
      $conn->commit();
 

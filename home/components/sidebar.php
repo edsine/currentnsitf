@@ -711,7 +711,25 @@ $role = $_SESSION['role'];
               </ul>
             </li>
             
-            
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Account Settings" style="font-weight:bold;">Leave Request</div>
+              </a>
+             <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="leave_request_stage_three" class="menu-link">
+                    <div data-i18n="Account" >New Leave Request</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="hod_reviewed" class="menu-link">
+                    <div data-i18n="Notifications" >Reviewed Leaves</div>
+                  </a>
+                </li>
+                
+              </ul>
+            </li>
                        
  <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle active">
@@ -2063,7 +2081,7 @@ $role = $_SESSION['role'];
               </a>
              <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="requested_leave" class="menu-link">
+                  <a href="sup_requested_leave" class="menu-link">
                     <div data-i18n="Account" >New Leave Request</div>
                   </a>
                 </li>
