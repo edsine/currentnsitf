@@ -16,6 +16,8 @@ $staff = $_SESSION['staff'];
 
 $comp = $query->getRow("select a.*, b.* ,c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type = c.leaveT_id and a.leaveId =$leaveId "); 
 
+$user_role = $comp["roles"];
+
 //$empNumm = $query->getRow("select count(*) as totalEmp from employees where employer_id = $leaveId"); 
 
 //$numbeOfemp = $empNumm['totalEmp'];
@@ -121,7 +123,7 @@ echo $emp;
                          <h3 class="mb-0">Supervisor Review </h3>
                         
                     
-                      <p> <?php if(isset($_SESSION['errors'])){ echo "<span style='color:red'>" .$_SESSION['errors']. "</span>" ;} ?></p>
+                      <p></p>
                    
                     </div>
                     
@@ -187,6 +189,7 @@ echo $emp;
                         <input type = "hidden" value="sup" name="review" />
                       
                       <input type = "hidden" value="<?php echo $leaveId ?>" name="leaveId" />
+                      <input type = "hidden" value="<?php echo $user_role ?>" name="user_role" />
                       <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Approved Number Of Days</label>
                        
@@ -234,7 +237,7 @@ echo $emp;
                        
                         <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Review Comments</label>
-                        <textarea   name="comment" id="defaultSelect" class="form-control">
+                        <textarea name="comment" id="" class="form-control" rows="3" cols="80">
                             
                           
                         </textarea>

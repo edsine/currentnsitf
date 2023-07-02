@@ -112,7 +112,7 @@ $branch =  $_SESSION['fbranch'];
                 <!--/ Transactions -->
               </div>
                      
-                          <?php include("components/leaveR_list.php"); ?>   
+            <?php include("components/leaveR_list.php"); ?>   
                       
             </div>
             <!-- / Content -->

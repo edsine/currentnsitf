@@ -37,7 +37,9 @@ $conn = $db_connection->dbConnection();
          
                 
              $insert_query = "INSERT INTO `leave_review`(officer_id, `leave_id`, `approved_days`, `approved_date`, `comments`) VALUES(:officer_id,:leave_id,:approved_days, :approved_date, :comments)";
-                     $insert_stmt = $conn->prepare($insert_query);
+             $insert_query2 = "INSERT INTO leave_stage( leave_id, stage) VALUES(:leave_id,:stage)";
+                $conn->begintransaction();
+                $insert_stmt = $conn->prepare($insert_query);
 
              // DATA BINDING
                $insert_stmt->bindValue(':officer_id',$officer,PDO::PARAM_INT);
