@@ -381,7 +381,7 @@ $_SESSION['path'] = $department;
                       
                      <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Upload Doc</label>
-  <input type="file" name="m_file" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <input type="file" name="m_file" class="form-control" id="exampleFormControlInput1" required>
 </div>    
 
   <input type="hidden" name="dpart" value="<?php echo  $der ?>">
@@ -389,8 +389,8 @@ $_SESSION['path'] = $department;
    
     <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Choose Folder</label>
-                       <select  name="spath" id="lastName" class="form-control" />
-                    <option style="color:red;"><span > -Select Role- <span style="color:red;">*</span></span></option>
+                       <select  name="spath" id="lastName" class="form-control" required/>
+                    <option value="">Select Folder</option>
                      <?php
                                                                                     foreach($folders as $row){
                                                                                         ?>
@@ -406,7 +406,7 @@ $_SESSION['path'] = $department;
                    
                      <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Document Name</label>
-  <input type="text" class="form-control" name="doc_name" id="exampleFormControlInput1" placeholder="name@example.com">
+  <input type="text" class="form-control" name="doc_name" id="exampleFormControlInput1" placeholder="Memo from MD">
 </div>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Document Description</label>
@@ -449,7 +449,7 @@ $_SESSION['path'] = $department;
                    
                      <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Folder Name</label>
-  <input type="text" class="form-control" name="folder" id="exampleFormControlInput1" placeholder="name@example.com">
+  <input type="text" class="form-control" name="folder" id="exampleFormControlInput1" placeholder="Incoming Files">
 </div>
      
      </div>

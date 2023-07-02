@@ -21,6 +21,12 @@ class Database{
           }
           
       }
+
+  public function dbConnection()
+  {
+    return $this->data;
+  }
+
     
 }
 

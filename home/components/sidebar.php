@@ -13,24 +13,24 @@ $query = new Manage();
 $branch = trim($_SESSION['branch']);
 //var_dump($_SESSION);
 
-//$branchD = $query->getRow("select * from all_branch where branch_id = $branch"); 
+$branchD = $query->getRow("select * from all_branch where branch_id = $branch"); 
 
-$dsn = "mysql:host=localhost;dbname=ebsdb";
-$username = "root";
-$password = "";
+// $dsn = "mysql:host=localhost;dbname=ebs";
+// $username = "root";
+// $password = "Mkpanama1";
 
-try {
-    $pdo = new PDO($dsn, $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch (PDOException $e) {
-    echo "Database connection failed: " . $e->getMessage();
-    exit();
-}
+// try {
+//     $pdo = new PDO($dsn, $username, $password);
+//     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+// } catch (PDOException $e) {
+//     echo "Database connection failed: " . $e->getMessage();
+//     exit();
+// }
 
 // Execute the query and fetch a single value
-$getbranch = "select * from all_branch where branch_id = $branch";
-$stmt = $pdo->query($getbranch);
-$branchD = $stmt->fetchColumn();
+// $getbranch = "select * from all_branch where branch_id = $branch";
+// $stmt = $pdo->query($getbranch);
+// $branchD = $stmt->fetchColumn();
 
 $myBranch = $branchD['branch_name'];
 
@@ -1952,7 +1952,7 @@ $role = $_SESSION['role'];
              <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="view_memos" class="menu-link">
-                    <div data-i18n="Account" >view Memos</div>
+                    <div data-i18n="Account" >View Memos</div>
                   </a>
                 </li>
                 <li class="menu-item">
@@ -2554,7 +2554,7 @@ $role = $_SESSION['role'];
              <ul class="menu-sub">
                 <li class="menu-item">
                   <a href="view_memos" class="menu-link">
-                    <div data-i18n="Account" >view Memos</div>
+                    <div data-i18n="Account" >View Memos</div>
                   </a>
                 </li>
                 <li class="menu-item">

@@ -26,7 +26,7 @@ $employees = $query->getRows("select * from dta_request where staffId = $staff "
 
 ?>
          <div class="card">
-                <h5 class="card-header" style="font-size:25px;">DTA Application Status <span style="font-size:14px;">(You can even see the progress on your email.)</span></h5>
+                <h5 class="card-header" style="font-size:25px;">DTA Application Status <span style="font-size:14px;"></span></h5>
                 <div class="card-body">
                   <div class="table-responsive text-nowrap">
                     <table id="tabulka_kariet1" class="table ">
