@@ -24,12 +24,12 @@ $branch = $_SESSION['branch'];
 if($role == 9){
 
   // $employees = $query->getRows("select a.*, b.* from dta_request as a, staff_tb as b where a.staffId= b.staffId and a.branchId = $branch and a.supervisor_status=1");
-  $employees = $query->getRows("select dta_id, hod_review, approval_status, supervisor_status, purpose_travel, destination, number_days, travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId join units on staff_tb.departmentId = units.department_id where units.unit_head = $staff and dta_request.supervisor_status = 1")
+  $employees = $query->getRows("select dta_id, hod_status, approval_status, supervisor_status, purpose_travel, destination, number_days, travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId join units on staff_tb.departmentId = units.department_id where units.unit_head = $staff and dta_request.supervisor_status = 1")
 
 
   ?>
   <div class="card">
-    <h5 class="card-header" style="font-size:25px;">Reviewed DTA Requests <span style="font-size:14px;"></span></h5>
+    <h5 class="card-header" style="font-size:25px;">Reviewed DTA Requests (Supervisor)<span style="font-size:14px;"></span></h5>
     <div class="card-body">
       <div class="table-responsive text-nowrap">
         <table id="tabulka_kariet1" class="table ">
@@ -106,16 +106,9 @@ if($role == 9){
 
  $employees = $query->getRows("select dta_id, hod_status, approval_status, supervisor_status, purpose_travel, destination, number_days, travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId where  dta_request.supervisor_status=1 AND dta_request.hod_status = 1");
 
-
-
-
-
-
-
-
  ?>
  <div class="card">
-  <h5 class="card-header" style="font-size:25px;">HOD Reviewed DTA Applications <span style="font-size:14px;"></span></h5>
+  <h5 class="card-header" style="font-size:25px;">Reviewed DTA Requests (HOD) <span style="font-size:14px;"></span></h5>
   <div class="card-body">
     <div class="table-responsive text-nowrap">
       <table id="tabulka_kariet1" class="table ">
@@ -128,19 +121,8 @@ if($role == 9){
            <th>Travel date</th>
            <th>Arrival date</th>
            <th>estimated Expenses</th>
-
-
-
-
            <th>Application Date </th>
            <th>Action </th>
-
-
-
-
-
-
-
          </tr>
        </thead>
        <tbody>
@@ -197,23 +179,16 @@ if($role == 9){
 </div>
 </div>
 
-<?php }elseif($role == 1){  
+<?php }elseif(($role == 1) or ($role == 12)){  
 
 
 
 
   $employees = $query->getRows("select dta_id, md_status, approval_status, supervisor_status, purpose_travel, destination, number_days, travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId where  dta_request.hod_status = 1");
 
-
-
-
-
-
-
-
   ?>
   <div class="card">
-    <h5 class="card-header" style="font-size:25px;">MD Reviewed DTA's <span style="font-size:14px;"></span></h5>
+    <h5 class="card-header" style="font-size:25px;">Reviewed DTA Requests (MD) <span style="font-size:14px;"></span></h5>
     <div class="card-body">
       <div class="table-responsive text-nowrap">
         <table id="tabulka_kariet1" class="table ">
@@ -262,15 +237,7 @@ if($role == 9){
 
               <td><?php echo $row['travel_date'] ?></td>
               <td><?php echo $row['arrival_date'] ?></td>
-
               <td><?php echo $row['estimated_expenses'] ?></td>
-
-
-
-
-
-
-
               <td><?php echo $row['createdAt'] ?></td>
 
               <td>
@@ -294,6 +261,7 @@ if($role == 9){
     </div>
   </div>
 </div>
+
 <?php }elseif($role == 4){
 
 
@@ -301,7 +269,7 @@ if($role == 9){
 
   ?>
   <div class="card">
-    <h5 class="card-header" style="font-size:25px;">Reviewed DTA Applications (Finance) <span style="font-size:14px;"></span></h5>
+    <h5 class="card-header" style="font-size:25px;">Reviewed DTA Requests (Finance) <span style="font-size:14px;"></span></h5>
     <div class="card-body">
       <div class="table-responsive text-nowrap">
         <table id="tabulka_kariet1" class="table ">

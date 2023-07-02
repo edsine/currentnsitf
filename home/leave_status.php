@@ -20,7 +20,7 @@ session_start();
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Leave Status</title>
+    <title>ENSITF LEAVE</title>
 
     <meta name="description" content="" />
 

@@ -29,7 +29,7 @@ if($role == 9){
   //$employees = $query->getRows("select a.*, b.* from dta_request as a, staff_tb as b where a.staffId= b.staffId and a.branchId = $branch ");
 
 
-  $employees = $query->getRows("select dta_id, approval_status, supervisor_status, purpose_travel, destination, number_days, travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId join units on staff_tb.departmentId = units.department_id where units.unit_head = $staff");
+  $employees = $query->getRows("select dta_id, approval_status, supervisor_status, purpose_travel, destination, number_days, travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId join units on staff_tb.departmentId = units.department_id where units.unit_head = $staff and supervisor_status = 0");
 
   ?>
   <div class="card">
@@ -111,11 +111,11 @@ if($role == 9){
   $employees = $query->getRows("select dta_id, approval_status, supervisor_status, purpose_travel, destination, number_days, 
     travel_date, arrival_date, hod_status, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, 
     md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId 
-    where staff_tb.departmentId = $department_id");
+    where staff_tb.departmentId = $department_id and hod_status = 0");
 
     ?>
     <div class="card">
-      <h5 class="card-header" style="font-size:25px;">DTA Applications (HOD Reviews)  <span style="font-size:14px;"></span></h5>
+      <h5 class="card-header" style="font-size:25px;">DTA Requests (HOD Review)  <span style="font-size:14px;"></span></h5>
       <div class="card-body">
         <div class="table-responsive text-nowrap">
           <table id="tabulka_kariet1" class="table ">
@@ -179,15 +179,16 @@ if($role == 9){
       </div>
     </div>
   </div>
-<?php }elseif($role == 1){   
+<?php }elseif(($role == 1) or ($role == 12)){   
 
   $employees = $query->getRows("select dta_id, approval_status, supervisor_status, purpose_travel, destination, number_days, 
     travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, 
-    md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId where dta_request.supervisor_status=1 and dta_request.hod_status=1");
+    md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId where dta_request.supervisor_status=1 and dta_request.hod_status=1
+    and md_status = 0");
 
   ?>
   <div class="card">
-    <h5 class="card-header" style="font-size:25px;">DTA Applications  <span style="font-size:14px;"></span></h5>
+    <h5 class="card-header" style="font-size:25px;">DTA Requests (MD Review)  <span style="font-size:14px;"></span></h5>
     <div class="card-body">
       <div class="table-responsive text-nowrap">
         <table id="tabulka_kariet1" class="table ">
@@ -257,7 +258,7 @@ if($role == 9){
 
   $employees = $query->getRows("select dta_id, account_status, approval_status, supervisor_status, purpose_travel, destination, number_days, 
     travel_date, arrival_date, estimated_expenses, dta_request.createdAt, staff_tb.firstname, staff_tb.lastname, 
-    md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId where dta_request.supervisor_status=1 and dta_request.hod_status=1 and dta_request.md_status=1");
+    md_status from dta_request join staff_tb on dta_request.staffId = staff_tb.staffId where dta_request.supervisor_status=1 and dta_request.hod_status=1 and dta_request.md_status=1 and dta_request.account_status = 0");
 
   ?>
   <div class="card">
@@ -274,7 +275,6 @@ if($role == 9){
              <th>Travel date</th>
              <th>Arrival date</th>
              <th>estimated Expenses</th>
-
              <th>Application Date </th>
              <th>Action </th>
 

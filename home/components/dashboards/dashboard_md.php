@@ -10,7 +10,7 @@ $query = new Manage();
 
 ?>
          <div class="card">
-                <h5 class="card-header" style="font-size:30px;">Staff list</h5>
+                <h5 class="card-header" style="font-size:30px;">MD's Dashboard Analytics</h5>
                 <div class="card-body">
                 MD's Dashboard
                 </div>
