@@ -99,7 +99,7 @@ $branch =  $_SESSION['fbranch'];
 
          <!--   <div class="container-xxl flex-grow-1 container-p-y"> -->
                          <?php 
-                         //include("components/analytics.php"); 
+                         include("components/analytics.php"); 
                          ?> 
               <div class="row">
              
@@ -114,7 +114,7 @@ $branch =  $_SESSION['fbranch'];
                 <!--/ Transactions -->
              <!-- </div> -->
                           <?php if($role == 1 || $role == 6 || $role== 7 || $role == 12 ){ ?>
-                        <?php include("components/employee_list.php"); ?>   
+                        <?php include("components/dashboards/dashboard_md.php"); ?>   
                         <?php }elseif($role == 9){ ?>
                           <?php include("components/leaveR_list.php"); ?>   
                         
