@@ -257,10 +257,12 @@ class SSP {
 	 *  @param  string $whereAll WHERE condition to apply to all queries
 	 *  @return array          Server-side processing response array
 	 */
-	static function complex ( $request, $conn, $table, $primaryKey, $columns, $whereResult=null, $whereAll=null )
+	static function complex ( $request, $table, $primaryKey, $columns, $whereResult=null, $whereAll=null )
 	{
 		$bindings = array();
-		$db = self::db( $conn );
+		require_once '../classes/database.php';
+		$db_connection = new Database();
+		$db = $db_connection->dbConnection();
 		$localWhereResult = array();
 		$localWhereAll = array();
 		$whereAllSql = '';

@@ -14,7 +14,7 @@ array( 'db' => 'employer_id', 'dt' => 5 )
 require_once '../classes/datatables.php';
 use SSP;
 echo json_encode(
-\SSP::complex( $_GET, $table, $primaryKey, $columns, "processing= 'FINAL APPROVAL'")
+\SSP::simple( $_GET, $table, $primaryKey, $columns)
 );
 
 

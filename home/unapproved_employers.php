@@ -94,7 +94,7 @@ session_start();
     <h5 class="card-header" style="font-size: 30px;">Unapproved Employers</h5>
     <div class="card-body">
         <div  class="table-responsive text-nowrap">
-            <table id="investors_table" class="table">
+            <table id="employers_table" class="table">
                 <thead>
                     <tr>
                         <th>Employer</th>
@@ -163,7 +163,7 @@ session_start();
       $(document).ready(function() {
         $('#tabulka_kariet1').DataTable();
 
-        $('#investors_table').DataTable( {
+        $('#employers_table').DataTable( {
           responsive:true,
           "processing":true,
           "serverSide":true,
