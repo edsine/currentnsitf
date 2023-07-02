@@ -1,8 +1,5 @@
 db.php
-<<<<<<< HEAD
 error_log
 document_uploads
 vendor
-=======
 classes/database.php
->>>>>>> 678843096f918a2e83c4cd29867633c753d413a6
