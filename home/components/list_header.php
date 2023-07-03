@@ -4,6 +4,7 @@ require_once(__DIR__.'/../../classes/database.php');
 $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 
+
 $get_employer_stats = "select count(employer_id) as employer_count from employer_tb";
 $get_employer_stats = $conn->prepare($get_employer_stats);
 $get_employer_stats->execute();
