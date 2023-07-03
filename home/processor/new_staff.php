@@ -17,7 +17,7 @@ require("PHPMailer_5.2.0/class.phpmailer.php");
 require("PHPMailer_5.2.0/class.smtp.php");
 require("PHPMailer_5.2.0/class.pop3.php");
  
-//$mail = new PHPMailer();
+$mail = new PHPMailer();
 
 require __DIR__.'/../../classes/database.php';
 $db_connection = new Database();
@@ -152,7 +152,7 @@ $conn = $db_connection->dbConnection();
                 if($result){
                     
                     
-/*                      $mail->IsSMTP();                                      // set mailer to use SMTP
+                      $mail->IsSMTP();                                      // set mailer to use SMTP
 $mail->Host = "nsitf.gov.ng";  // specify main and backup server
 $mail->SMTPAuth = true;     // turn on SMTP authentication
 $mail->Username = "ebs@nsitf.gov.ng";  // SMTP username
@@ -169,7 +169,7 @@ $mail->WordWrap = 50;                                  // set word wrap to 50 ch
 //$mail->AddAttachment("/tmp/image.jpg", "new.jpg");    // optional name
 $mail->IsHTML(true);                                  // set email format to HTML
 
-$mail->Subject = "NSITF EBS LOGIN CREDENTIALS,";*/
+$mail->Subject = "NSITF EBS LOGIN CREDENTIALS,";
 
 $Body    = "
 <html xmlns=\"http://www.w3.org/1999/xhtml\">
@@ -616,7 +616,7 @@ $Body    = "
           <table class=\"email-content\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\">
             <tr>
               <td class=\"email-masthead\">
-                <a href=\"https://www.navsa.ng\" class=\"f-fallback email-masthead_name\">
+                <a href=\"https://www.ebs.nsitf.gov.ng\" class=\"f-fallback email-masthead_name\">
                               <img src =\"https://ebs.nsitf.gov.ng/ikl.png \" style=\"width:100px\">
               </a>
               </td>
@@ -684,9 +684,9 @@ You now have access to a wide range of resources that will simply your day-to-da
 
 
 //$query=$conn->query("insert into materials(category_id,title,material_desc,up_name, material_file)values('$cat_id','$mat_title','$desc','$up_name','$name')");
-/*if(!$mail->Send()){
-echo "essage Can not be sent";
-}    */ 
+if(!$mail->Send()){
+echo "Message Can not be sent";
+}     
   
                 
               
