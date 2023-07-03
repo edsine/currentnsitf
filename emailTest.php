@@ -11,7 +11,7 @@ require("PHPMailer_5.2.0/class.pop3.php");
   $email = "nmibrahim19@gmail.com";
   
                           
-    $mail->IsSMTP();                                      // set mailer to use SMTP
+$mail->IsSMTP();                                      // set mailer to use SMTP
 $mail->Host = "nsitf.gov.ng";  // specify main and backup server
 $mail->SMTPAuth = true;     // turn on SMTP authentication
 $mail->Username = "ebs@nsitf.gov.ng";  // SMTP username

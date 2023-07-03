@@ -63,10 +63,7 @@ $employees = $query->getRows("select * from memo_data ");
                           ?>
                         <tr>
                          
-                            
                                <td><?php echo $row['title'] ?></td>
-                            
-                            
                           <td><?php echo $row['content'] ?></td>
                            
                             <td><?php echo $row['createdAt'] ?></td>

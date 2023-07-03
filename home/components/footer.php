@@ -5,13 +5,10 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  , Copy right
-                  <a href="https://themeselection.com" target="_blank" class="footer-link fw-bolder">nsitf </a>
+                  , CopyRight
+                  <a href="https://nsitf.gov.ng" target="_blank" class="footer-link fw-bolder">Nigeria Social Insurance Trust Fund </a>
                 </div>
                 <div>
-                  
-                
-
                 
                 </div>
               </div>

@@ -5,7 +5,7 @@ session_start();
 ?>
 <!DOCTYPE html>
 
-
+ 
 <html
   lang="en"
   class="light-style layout-menu-fixed"
@@ -90,7 +90,26 @@ session_start();
                 <!-- Order Statistics -->
                  <?php include("components/list_header.php"); ?>
                 
-                    <?php include("components/unapprove_emp.php"); ?>
+                    <div class="card">
+    <h5 class="card-header" style="font-size: 30px;">Unapproved Employers</h5>
+    <div class="card-body">
+        <div  class="table-responsive text-nowrap">
+            <table id="employers_table" class="table">
+                <thead>
+                    <tr>
+                        <th>Employer</th>
+                        <th>ECS Number</th>
+                        <th>RC Number</th>
+                        <th>Bussiness Type</th>
+                        <th>Approval Status</th>
+                        <th>Date Registered</th>
+                    </tr>
+                </thead>
+            </table>
+
+        </div>
+    </div>
+</div>
               
               </div>
             </div>
@@ -144,6 +163,17 @@ session_start();
 <script>
       $(document).ready(function() {
         $('#tabulka_kariet1').DataTable();
+
+        $('#employers_table').DataTable( {
+          responsive:true,
+          "processing":true,
+          "serverSide":true,
+          "ajax":"employer_datatables.php?table_type=2"
+        }
+          
+          );
+
+
       });
     </script>
 </html>

@@ -21,7 +21,7 @@ session_start();
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Employer Account</title>
+    <title>Employers</title>
 
     <meta name="description" content="" />
 
@@ -89,7 +89,27 @@ session_start();
               <div class="row">
                 <!-- Order Statistics -->
                 
-                    <?php include("components/employee_list.php"); ?>
+                  <div class="card">
+                <h5 class="card-header" style="font-size:30px;">All Employers</h5>
+                <div class="card-body">
+                  <div class="table-responsive text-nowrap">
+                    <table id="employers_table" class="table ">
+                      <thead>
+                        <tr>
+                          <th>Employer</th>
+                          <th>ECS Number</th>
+                          <th>RC Number</th>
+                          <th>Business Type</th>
+                          <th>Date Registered</th>             
+                      
+                          
+                        </tr>
+                      </thead>
+ 
+                    </table>
+                  </div>
+                </div>
+              </div>
               
               </div>
             </div>
@@ -143,6 +163,17 @@ session_start();
 <script>
       $(document).ready(function() {
         $('#tabulka_kariet1').DataTable();
+
+         $('#employers_table').DataTable( {
+          responsive:true,
+          "processing":true,
+          "serverSide":true,
+          "ajax":"employer_datatables.php?table_type=3"
+        }
+          
+          );
+
+ 
       });
     </script>
 </html>

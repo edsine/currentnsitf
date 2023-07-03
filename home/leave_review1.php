@@ -13,8 +13,12 @@ $query = new Manage();
 $leaveId= $_GET['cert'];
 
 $staff = $_SESSION['staff'];
+$logged_in_user = $query->getRow("select roles as role from staff_tb where staffId = $staff"); 
+$logged_in_user_role = $logged_in_user["role"]; /*The role of the user reviewing the leave request*/
 
 $comp = $query->getRow("select a.*, b.* ,c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type = c.leaveT_id and a.leaveId =$leaveId "); 
+
+$user_role = $comp["roles"];
 
 //$empNumm = $query->getRow("select count(*) as totalEmp from employees where employer_id = $leaveId"); 
 
@@ -121,7 +125,7 @@ echo $emp;
                          <h3 class="mb-0">Supervisor Review </h3>
                         
                     
-                      <p> <?php if(isset($_SESSION['errors'])){ echo "<span style='color:red'>" .$_SESSION['errors']. "</span>" ;} ?></p>
+                      <p></p>
                    
                     </div>
                     
@@ -136,13 +140,12 @@ echo $emp;
                       <form action="./processor/s_review" method="POST" enctype="multipart/form-data">
                           
                     <p>Staff FullName : &nbsp;<?php echo $comp['firstname'].'&nbsp; '.$comp['lastname'].' &nbsp;'.$comp['middlename'] ?></p>
-                     <p>Work ID :  <?php echo $comp['work_id'] ?></p>
                      
                       <p>Phone: <?php echo $comp['phone'] ?></p>
                       
                       <p>Email Address: <?php echo $comp['staff_email'] ?></p>
                       
-                      <p>Singnature: <a href="">View</a></p>
+                      <p>Signature: <a href="">View</a></p>
                       
                        <p>Application Letter: <a href="">View</a></p>
                       
@@ -187,6 +190,7 @@ echo $emp;
                         <input type = "hidden" value="sup" name="review" />
                       
                       <input type = "hidden" value="<?php echo $leaveId ?>" name="leaveId" />
+                      <input type = "hidden" value="<?php echo $logged_in_user_role ?>" name="logged_in_user_role" />
                       <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Approved Number Of Days</label>
                        
@@ -234,10 +238,7 @@ echo $emp;
                        
                         <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Review Comments</label>
-                        <textarea   name="comment" id="defaultSelect" class="form-control">
-                            
-                          
-                        </textarea>
+                        <textarea name="comment" id="" class="form-control" rows="3" cols="80"></textarea>
                       </div>
                       
 
@@ -250,7 +251,7 @@ echo $emp;
                     
 
                        
-                        <button type="submit" class="btn btn-primary">submit(Forward to HOD HRM)</button>
+                        <button type="submit" class="btn btn-primary">submit(Forward to HOD)</button>
                       </form>
                     </div>
                   </div>

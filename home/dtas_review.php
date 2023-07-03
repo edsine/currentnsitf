@@ -37,7 +37,7 @@ $reviews = $query->getRows("select * from dta_review where dtaId =$dtaId ");
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>NSITF ebs new staff</title>
+    <title>DTA Supervisor Review</title>
 
     <meta name="description" content="" />
 
@@ -210,7 +210,7 @@ $reviews = $query->getRows("select * from dta_review where dtaId =$dtaId ");
                           <div class="row">
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Supervisor Comment</label>
-                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="House Number" ></textarea>
+                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="Supervisor Comment" ></textarea>
                           </div>
                  
                           
@@ -341,14 +341,14 @@ $reviews = $query->getRows("select * from dta_review where dtaId =$dtaId ");
                           <div class="row">
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">HOD Comment</label>
-                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="House Number" ></textarea>
+                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="HOD Comment" ></textarea>
                           </div>
                  
                           
                           
                         </div>
                         <div class="mt-2">
-                          <button type="submit" style="background-color:#50664d; border-color:#50664d;" class="btn btn-primary me-2">Submit(Approve forward to MD/ED)</button>
+                          <button type="submit" style="background-color:#50664d; border-color:#50664d;" class="btn btn-primary me-2">Approve -> Forward to MD</button>
                           <button type="reset" class="btn btn-outline-secondary">Decline</button>
                         </div>
                       </form>
@@ -481,15 +481,15 @@ $reviews = $query->getRows("select * from dta_review where dtaId =$dtaId ");
                        
                           <div class="row">
                           <div class="mb-3 col-md-6">
-                            <label for="address" class="form-label">MD/ED Comment</label>
-                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="House Number" ></textarea>
+                            <label for="address" class="form-label">MD Comment</label>
+                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="MD Comment" ></textarea>
                           </div>
                  
                           
                           
                         </div>
                         <div class="mt-2">
-                          <button type="submit" style="background-color:#50664d; border-color:#50664d;" class="btn btn-primary me-2">Submit(Approve forward to MD/ED)</button>
+                          <button type="submit" style="background-color:#50664d; border-color:#50664d;" class="btn btn-primary me-2">Approve  -->Forward to Accounts</button>
                           <button type="reset" class="btn btn-outline-secondary">Decline</button>
                         </div>
                       </form>
@@ -622,7 +622,7 @@ $reviews = $query->getRows("select * from dta_review where dtaId =$dtaId ");
                           <div class="row">
                           <div class="mb-3 col-md-6">
                             <label for="address" class="form-label">Account Comment</label>
-                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="House Number" ></textarea>
+                            <textarea type="text" class="form-control" id="address" name="comment" placeholder="Finance Comments" ></textarea>
                           </div>
                  
                           

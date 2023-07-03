@@ -216,10 +216,7 @@ echo $emp;
                        
                         <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Review Comments</label>
-                        <textarea   name="comment" id="defaultSelect" class="form-control">
-                            
-                          
-                        </textarea>
+                        <textarea   name="comment" id="defaultSelect" class="form-control"></textarea>
                       </div>
                       
 

@@ -21,7 +21,7 @@ session_start();
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Employer Account</title>
+    <title>Reviewed DTA Requests</title>
 
     <meta name="description" content="" />
 
@@ -86,7 +86,7 @@ session_start();
 
             <div class="container-xxl flex-grow-1 container-p-y">
              <?php if(isset($_SESSION['dtaSuccess'])){ ?>
-               <script>alert("DTA reviewed, DTA processing------ forward to HOD")</script>
+               <script>alert("DTA Reviewed, --Forwarded to HOD")</script>
                 
                 <?php } ?>
                   <?php unset($_SESSION["dtaSuccess"]) ?>
@@ -95,7 +95,7 @@ session_start();
                   
                   
                   <?php if(isset($_SESSION['dtahSuccess'])){ ?>
-               <script>alert("DTA reviewed, DTA processing------ forward to MD")</script>
+               <script>alert("DTA Reviewed, -- Forwarded to MD")</script>
                 
                 <?php } ?>
                   <?php unset($_SESSION["dtahSuccess"]) ?>
@@ -104,17 +104,15 @@ session_start();
                 
                 
                  <?php if(isset($_SESSION['dtamdSuccess'])){ ?>
-               <script>alert("DTA reviewed, DTA processing------ forward to Account")</script>
+               <script>alert("DTA Approved, -- Forwarded to Accounts")</script>
                 
                 <?php } ?>
                   <?php unset($_SESSION["dtamdSuccess"]) ?>
                   
-                  
-                  
-                  
+
                   
                    <?php if(isset($_SESSION['accSuccess'])){ ?>
-               <script>alert("DTA Approved, Payment processing in account")</script>
+               <script>alert("DTA Approved, Funds Released")</script>
                 
                 <?php } ?>
                   <?php unset($_SESSION["accSuccess"]) ?>
