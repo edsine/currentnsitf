@@ -89,7 +89,28 @@ session_start();
               <div class="row">
                 <!-- Order Statistics -->
                
-                    <?php include("components/approved_emp.php"); ?>
+                   <div class="card">
+                <h5 class="card-header" style="font-size:30px;">Approved Employers</h5>
+                <div class="card-body">
+                  <div class="table-responsive text-nowrap">
+                    <table id="employers_table" class="table ">
+                      <thead>
+                        <tr>
+                          <th>Employer</th>
+                          <th>ECS Number</th>
+                          <th>RC Number</th>
+                          <th>Bussiness Type</th>                                    
+                          <th>Inpection Status</th>
+                          <th>Approval Status</th>
+                          <th>Date Registered</th>
+                          
+                        </tr>
+                      </thead>
+                      
+                    </table>
+                  </div>
+                </div>
+              </div>
               
               </div>
             </div>
@@ -143,6 +164,20 @@ session_start();
 <script>
       $(document).ready(function() {
         $('#tabulka_kariet1').DataTable();
+
+
+          $('#employers_table').DataTable( {
+          responsive:true,
+          "processing":true,
+          "serverSide":true,
+          "ajax":"employer_datatables.php?table_type=1"
+        }
+          
+          );
+
+
       });
+ 
+
     </script>
 </html>

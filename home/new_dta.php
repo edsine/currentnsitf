@@ -87,13 +87,13 @@
                             <div class="" style="width:50%;">
                   <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0">DTA Application</h5>
+                      <h5 class="mb-0">DTA Request</h5>
                       <p> <?php if(isset($_SESSION['errors'])){ echo "<span style='color:red'>" .$_SESSION['errors']. "</span>" ;} ?></p>
                    
                     </div>
               
                     <div class="card-body">
-                      <form action="./processor/registry_val" method="POST" enctype="multipart/form-data">
+                      <form action="./processor/dta_val" method="POST" enctype="multipart/form-data">
                           
                           
                            <div class="mb-3">
@@ -103,7 +103,7 @@
                               ><i class="bx bx-user"></i
                             ></span>
                             
-                            <input class="form-control" name="file" accept=".pdf" type="file" id="formFile" />
+                            <input class="form-control" name="file" accept=".pdf" type="file" id="formFile" required />
                           </div>
                         </div>
 
@@ -123,7 +123,7 @@
                               id="basic-icon-default-fullname"
                               placeholder="Purpose of Travel"
                               aria-label="First Name"
-                              name="fname"
+                              name="p_travel"
                               aria-describedby="basic-icon-default-fullname2"
 
                             />
@@ -144,7 +144,7 @@
                               id="basic-icon-default-fullname"
                               placeholder="Destination"
                               aria-label="Middle Name"
-                              name="femail"
+                              name="destination"
                               aria-describedby="basic-icon-default-fullname2"
                             />
                           </div>
@@ -165,7 +165,28 @@
                               id="basic-icon-default-fullname"
                               placeholder="Document Name"
                               aria-label="Last Name"
-                              name="doc_name"
+                              name="tv_date"
+                              aria-describedby="basic-icon-default-fullname2"
+                            />
+                          </div>
+                        </div>
+
+                        <div class="mb-3">
+                          <label class="form-label" for="basic-icon-default-fullname">Arrival Date</label>
+                          <div class="input-group input-group-merge">
+                               <span id="basic-icon-default-fullname2" class="input-group-text"
+                              ><i class="bx bx-user"></i
+                            ></span>
+                            
+                            <input
+                             required
+                              type="date"
+
+                              class="form-control"
+                              id="basic-icon-default-fullname"
+                              placeholder="Document Name"
+                              aria-label="Last Name"
+                              name="arr_date"
                               aria-describedby="basic-icon-default-fullname2"
                             />
                           </div>
@@ -187,7 +208,7 @@
                               id="basic-icon-default-fullname"
                               placeholder="Estimated Expenses "
                               aria-label="Middle Name"
-                              name="femail"
+                              name="estimated_expenses"
                               aria-describedby="basic-icon-default-fullname2"
                             />
                           </div>
@@ -199,7 +220,7 @@
                     
 
                        
-                        <button type="submit" class="btn btn-primary">Save ->  Send To MD’s office</button>
+                        <button type="submit" class="btn btn-primary">Submit ->  Unit Head / Supervisor</button>
                       </form>
                     </div>
                   </div>

@@ -24,7 +24,20 @@ $query = new Manage();
 //$rcount = $recCount['recCount'];
 //$ucount = $uploadCount['upCount'];
 
-$employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type=c.leaveT_id and a.supervisor_office = 1 and a.md_hr=1  ");
+/*$employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type=c.leaveT_id and a.supervisor_office = 1 and a.md_hr=1  ");*/
+
+$stage = 3; //HR Should see request approved by HOD
+$staff =$_SESSION['staff'];
+$users_to_approve = $query->getRows("select leave_request.leaveId as leave_id, staff_tb.staffId as staffid,
+  CONCAT(staff_tb.firstname,' ',staff_tb.lastname) as fullname,types_leave.leave_name as leave_type,
+  date_format(leave_request.date_start_new,'%M %e, %Y') as start_date,
+  leave_request.num_days as num_days,leave_request.approve_status as approval_status,
+  leave_request.createdAt as date_created, date_format(leave_review.approved_date, '%M %e, %Y') as approved_date from leave_request
+  join types_leave on leave_request.type = types_leave.leaveT_id
+  join staff_tb on leave_request.staff_id = staff_tb.staffId
+  join leave_stage on leave_request.leaveId = leave_stage.leave_id
+  join leave_review on leave_request.leaveId = leave_review.leave_id
+  where staffId !=$staff and leave_stage.stage =$stage");
 
 //if($payment !=1){
   //if ($rcount===$ucount){
@@ -47,17 +60,9 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                           <th>Leave Type</th>
                     
                           <th>Leave Commence Date</th>
+                          <th>Date Approved</th>
                            <th>Requested Number Of Days</th>
-                           
-                            <th>Reviews</th>
-                         
-                            
                               <th>Request Date</th>
-                          
-                        
-                          
-                         
-                        
                            <th>Manage</th>
                           
                         </tr>
@@ -65,27 +70,23 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                       <tbody>
                          
 
-                          <?php foreach($employees as $row){ 
+                          <?php foreach($users_to_approve as $row){ 
                           
                           $ap = $row['approve_status']
                           ?>
                         <tr>
-                           <td><?php echo $row['firstname']. ' &nbsp;'.$row['lastname']  ?></td>
+                           <td><?php echo $row['fullname'];  ?></td>
                         
-                               <td><? echo $row['leave_name'] ?></td>
-                          <td><?php echo $row['date_start_new'] ?></td>
+                               <td><?php echo $row['leave_type'] ?></td>
+                          <td><?php echo $row['start_date'] ?></td>
+                          <td><?php echo $row['approved_date'] ?></td>
                             <td><?php echo $row['num_days'] ?></td>
                             
-                             <td><a href="view_supervisor_review?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary">View Details</a></td>
-                            
-                            <td><?php echo $row['createdAt'] ?></td>
-                            
-                            
-                    
-                          
+                            <td><?php echo $row['date_created'] ?></td>
+
                           <td>
                             <div class="dropdown">
-                                  <a href="approval_review?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary">Review/Approve</a>
+                                  <a href="approval_review?cert=<?php echo $row['leave_id'] ?>" type="button" class="btn btn-primary">Review/Approve</a>
                                    
                             </div>
                           </td>

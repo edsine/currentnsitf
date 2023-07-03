@@ -26,8 +26,17 @@ $query = new Manage();
 //$rcount = $recCount['recCount'];
 //$ucount = $uploadCount['upCount'];
 
-$employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type=c.leaveT_id  and a.supervisor_office = 1 and a.md_hr = 1  and approve_status = 1");
-
+/*$employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staff_tb as b, types_leave as c where a.staff_id = b.staffId and a.type=c.leaveT_id  and a.supervisor_office = 1 and a.md_hr = 1  and approve_status = 1");*/
+$stage = 4;
+$approved_leaves = $query->getRows("select leave_request.leaveId as leave_id, staff_tb.staffId as staffid,
+  CONCAT(staff_tb.firstname,' ',staff_tb.lastname) as fullname,types_leave.leave_name as leave_type,
+  date_format(leave_request.date_start_new,'%M %e, %Y') as start_date,
+  leave_request.num_days as num_days,leave_request.approve_status as approval_status,
+  leave_request.createdAt as date_created from leave_request
+  join types_leave on leave_request.type = types_leave.leaveT_id
+  join staff_tb on leave_request.staff_id = staff_tb.staffId
+  join leave_stage on leave_request.leaveId = leave_stage.leave_id
+  where leave_stage.stage = $stage");
 //if($payment !=1){
   //if ($rcount===$ucount){
        //     header("location:invoice");
@@ -50,37 +59,23 @@ $employees = $query->getRows("select a.*, b.*, c.* from leave_request as a, staf
                     
                           <th>Leave Commence Date</th>
                            <th>Requested Days</th>
-                           
-                            
-                        
-                           <th>Manage</th>
                           
                         </tr>
                       </thead>
                       <tbody>
                          
 
-                          <?php foreach($employees as $row){ 
+                          <?php foreach($approved_leaves as $row){ 
                           
                           $ap = $row['approve_status']
                           ?>
                         <tr>
-                           <td><?php echo $row['firstname']. ' &nbsp;'.$row['lastname']  ?></td>
+                           <td><?php echo $row['fullname'] ?></td>
                     
-                               <td><? echo $row['leave_name'] ?></td>
-                          <td><?php echo $row['date_start_new'] ?></td>
+                               <td><?php echo $row['leave_type'] ?></td>
+                          <td><?php echo $row['start_date'] ?></td>
                             <td><?php echo $row['num_days'] ?></td>
                             
-                          
-                          <td>
-                            <div class="dropdown">
-                                 
-                                   
-                                   
-                                     <a href="leave_review1?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary">Details</a>
-                                   
-                            </div>
-                          </td>
                         </tr>
                         
                         <?php } ?>
