@@ -55,7 +55,7 @@ $employees = $query->getRows("select * from memo_data ");
                         </tr>
                       </thead>
                       <tbody>
-                         
+                        
 
                           <?php foreach($employees as $row){ 
                           
@@ -64,7 +64,9 @@ $employees = $query->getRows("select * from memo_data ");
                         <tr>
                          
                             
-                               <td><? echo $row['title'] ?></td>
+                               <td><?php echo $row['title'] ?></td>
+                            
+                            
                           <td><?php echo $row['content'] ?></td>
                            
                             <td><?php echo $row['createdAt'] ?></td>

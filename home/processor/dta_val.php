@@ -15,7 +15,7 @@ $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 
 
- if(empty($_FILES["doc"]["name"])){
+ if(empty($n_FILES["doc"]["name"])){
               
               
           $_FILES["doc"]["name"]= "local";    

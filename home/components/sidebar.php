@@ -32,7 +32,7 @@ $getbranch = "select * from all_branch where branch_id = $branch";
 $stmt = $pdo->query($getbranch);
 $branchD = $stmt->fetchColumn();
 
-$myBranch = $branchD['branch_name'];
+// $myBranch = $branchD['branch_name'];
 
 
   $der =   $_SESSION['department'] ;
@@ -74,8 +74,10 @@ $role = $_SESSION['role'];
             <li class="menu-item " style="background-color:#50664d; border-color:#50664d;">
               <a href="index" class="menu-link">
                 <i  style="color:#fff;" class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div data-i18n="Analytics" style="color:#fff;">Dashboard</div>
+                <div data-i18n="Analytics" style="color:#fff;">Dashboard </div>
+             
               </a>
+             
             </li>
             
             <li class="menu-item">
