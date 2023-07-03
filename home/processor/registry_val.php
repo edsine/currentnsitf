@@ -10,9 +10,9 @@ function msg($success,$status,$user,$message,$extra = []){
     ],$extra);
 }
 
-require __DIR__.'/classes/database.php';
+require __DIR__.'/../../classes/database.php';
 $db_connection = new Database();
-$conn = $db_connection->data;
+$conn = $db_connection->dbConnection();
 
 $targetDir = "../../DOCUMENTS/REGISTRY/";
 $fileName = basename($_FILES["doc"]["name"]);

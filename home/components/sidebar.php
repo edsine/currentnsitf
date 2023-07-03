@@ -931,11 +931,11 @@ $myRole = $myrol['role'];
     </a>
     <ul class="menu-sub">
 
-      <li class="menu-item">
+      <!-- <li class="menu-item">
         <a href="Payments" class="menu-link">
           <div data-i18n="Notifications" >Successful Payments</div>
         </a>
-      </li>
+      </li> -->
 
       <li class="menu-item">
         <a href="pending_payments" class="menu-link">
@@ -1038,7 +1038,7 @@ $myRole = $myrol['role'];
   </li>
 
 
-  <li class="menu-item">
+  <!-- <li class="menu-item">
     <a href="javascript:void(0);" class="menu-link menu-toggle">
       <i class="menu-icon tf-icons bx bx-dock-top"></i>
       <div data-i18n="Account Settings" style="font-weight:bold;">Memos</div>
@@ -1056,7 +1056,7 @@ $myRole = $myrol['role'];
       </li>
 
     </ul>
-  </li>
+  </li> -->
 
 
   <li class="menu-item">
@@ -1070,7 +1070,7 @@ $myRole = $myrol['role'];
           <div data-i18n="Account" >Home</div>
         </a>
       </li>
-      <li class="menu-item">
+      <!-- <li class="menu-item">
         <a href="create_document" class="menu-link">
           <div data-i18n="Notifications" >Create File</div>
         </a>
@@ -1079,7 +1079,7 @@ $myRole = $myrol['role'];
         <a href="" class="menu-link">
           <div data-i18n="Connections" >Notifications</div>
         </a>
-      </li>
+      </li> -->
     </ul>
   </li>
 

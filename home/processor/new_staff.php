@@ -19,7 +19,7 @@ require("PHPMailer_5.2.0/class.pop3.php");
  
 //$mail = new PHPMailer();
 
-require __DIR__.'/classes/database.php';
+require __DIR__.'/../../classes/database.php';
 $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 

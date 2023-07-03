@@ -2,8 +2,8 @@
 
 $servername='localhost';
 $username='root';
-$password='Mkpanama1';
-$dbname = "ebs";
+$password='';
+$dbname = "ebsdb";
 
 $conn=mysqli_connect($servername,$username,$password,"$dbname");
       if(!$conn){

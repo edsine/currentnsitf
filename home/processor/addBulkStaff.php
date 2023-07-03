@@ -2,7 +2,7 @@
 require_once ('vendor/autoload.php');
 
 
-require __DIR__.'/classes/Database.php';
+require __DIR__.'/../../classes/Database.php';
 $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 

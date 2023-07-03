@@ -10,9 +10,9 @@
       ],$extra);
     }
 
-    require __DIR__.'/classes/database.php';
+    require __DIR__.'/../../classes/database.php';
     $db_connection = new Database();
-    $conn = $db_connection->data;
+    $conn = $db_connection->dbConnection();
 
     $type =    $_POST['type'] ;
 
