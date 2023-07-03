@@ -1,9 +1,9 @@
 <?php
 
-$servername='127.0.0.1';
+$servername='localhost';
 $username='root';
-$password='';
-$dbname = "ebsdb";
+$password='Mkpanama1';
+$dbname = "ebs";
 
 $conn=mysqli_connect($servername,$username,$password,"$dbname");
       if(!$conn){

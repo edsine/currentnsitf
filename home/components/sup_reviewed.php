@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['admin-log'])){
-    header("location:../");
+  header("location:../");
 }
 
 
@@ -36,67 +36,67 @@ $employees = $query->getRows("select concat(staff_tb.firstname, ' ',staff_tb.las
 //if($payment !=1){
   //if ($rcount===$ucount){
        //     header("location:invoice");
-    
+
      //   }
-        
+
 //}
 
-?>
-         <div class="card">
-                <h5 class="card-header" style="font-size:30px;">Reviewed Leaves</h5>
-                <div class="card-body">
-                  <div class="table-responsive text-nowrap">
-                    <table id="tabulka_kariet1" class="table ">
-                      <thead>
-                        <tr>
-                            <th>From (Staff)</th>
-                             
-                          <th>Leave Type</th>
-                    
-                          <th>Leave Commence Date</th>
-                          <th>Leave Approved Date</th>
-                           <th>Requested Days</th>
-                            <th>Approved Days</th>
-                              <th>Review Date</th>
-                              <th>Leave Status</th>
-                           <th>Manage</th>
-                          
-                        </tr>
-                      </thead>
-                      <tbody>
-                         
+  ?>
+  <div class="card">
+    <h5 class="card-header" style="font-size:30px;">Reviewed Leave Applications (Supervisor / Unit Head)</h5>
+    <div class="card-body">
+      <div class="table-responsive text-nowrap">
+        <table id="tabulka_kariet1" class="table ">
+          <thead>
+            <tr>
+              <th>From (Staff)</th>
 
-                          <?php foreach($employees as $row){ 
-                          
-                          $ap = $row['approve_status']
-                          ?>
-                        <tr>
-                           <td><?php echo $row['fullname']; ?></td>
-                    
-                               <td><?php echo $row['leave_name'] ?></td>
-                          <td><?php echo $row['start_date'] ?></td>
-                          <td><?php echo $row['approved_date'] ?></td>
-                            <td><?php echo $row['requested_days'] ?></td>
-                            
-                             <td><?php echo $row['approved_days'] ?></td>
-                            
-                            <td><?php echo $row['review_date'] ?></td>
-                            <td><span class="badge bg-label-primary me-1"> <?php echo $row['leave_status'] ?></span></td>
-                          <td>
-                            <div class="dropdown">
-                                  <a href="edit_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white;">Edit Review</a>
-                                   
-                                   
-                                     <a href="suspend_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white">Suspend Review</a>
-                                   
-                            </div>
-                          </td>
-                        </tr>
-                        
-                        <?php } ?>
-                       
-                      </tbody>
-                    </table>
-                  </div>
+              <th>Leave Type</th>
+
+              <th>Leave Commence Date</th>
+              <th>Leave Approved Date</th>
+              <th>Requested Days</th>
+              <th>Approved Days</th>
+              <th>Review Date</th>
+              <th>Leave Status</th>
+              <th>Manage</th>
+
+            </tr>
+          </thead>
+          <tbody>
+
+
+            <?php foreach($employees as $row){ 
+
+              $ap = $row['approve_status']
+              ?>
+              <tr>
+               <td><?php echo $row['fullname']; ?></td>
+
+               <td><?php echo $row['leave_name'] ?></td>
+               <td><?php echo $row['start_date'] ?></td>
+               <td><?php echo $row['approved_date'] ?></td>
+               <td><?php echo $row['requested_days'] ?></td>
+
+               <td><?php echo $row['approved_days'] ?></td>
+
+               <td><?php echo $row['review_date'] ?></td>
+               <td><span class="badge bg-label-primary me-1"> <?php echo $row['leave_status'] ?></span></td>
+               <td>
+                <div class="dropdown">
+                  <a href="edit_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white;">Edit Review</a>
+
+
+                  <!-- <a href="suspend_leave_request?cert=<?php echo $row['leaveId'] ?>" type="button" class="btn btn-primary" style="color:white">Suspend Review</a> -->
+
                 </div>
-              </div>
+              </td>
+            </tr>
+
+          <?php } ?>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

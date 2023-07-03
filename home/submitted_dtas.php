@@ -90,7 +90,6 @@ data-template="vertical-menu-template-free"
             <div class="container-xxl flex-grow-1 container-p-y">
              <?php if(isset($_SESSION['dtaSuccess'])){ ?>
                <script>alert("DTA submitted successfully, DTA processing------ forward to Supervissor")</script>
-
              <?php } ?>
              <?php unset($_SESSION["dtaSuccess"]) ?>
              <div class="row">
