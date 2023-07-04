@@ -1,40 +1,46 @@
 <?php 
 session_start();
- $conn = new mysqli('localhost', 'ebsdb', '', 'root');
+
+//$conn = new mysqli('localhost', 'root', 'Mkpanama1', 'ebs');
  
- 
+require __DIR__.'/../classes/database.php';
+$db_connection = new Database();
+$conn = $db_connection->dbConnection();
 
  
- $user = $_GET['id'];
+$user = $_GET['id'];
 
 if (isset($_POST['gone'])) {
     
   
-        $sql = "UPDATE staff_tb SET roles = :role WHERE staffId = :staff";
+$sql = "UPDATE staff_tb SET roles = :role WHERE staffId = :staff";
 $stmt = $conn->prepare($sql);
+
 
 if ($stmt) {
   // Set the parameter values
   $role = $_POST['role'];
-  $staff = $_SESSION['staff'];
+  $staff = $_GET['id'];
 
   // Bind the parameter values to the named placeholders
   $stmt->bindParam(':role', $role);
-  $stmt->bindParam(':staff', $staff);
-
+  $stmt->bindParam(':staff', $user);
+  echo $user;
   // Execute the prepared statement
   $stmt->execute();
 
   // Close the statement
   $stmt = null;
+
+  $_SESSION['crole']=TRUE;
+        
+        header("location:user_roles");
 } else {
   // Handle error if the prepare() method failed
   echo "Failed to prepare the statement.";
 }
         
-        $_SESSION['crole']=TRUE;
         
-        header("location:user_roles");
      
 }
 
@@ -138,7 +144,7 @@ if ($stmt) {
                                                                 <select class="form-select"
                                                                     aria-label="Default select example"
                                                                     id="country-dropdown" name="role">
-                                                                    <option>-Select State-</option> <?php
+                                                                    <option>-Select Role-</option> <?php
                                                                                         require_once "db.php";
                                                                                         $result = mysqli_query($conn,"SELECT * FROM roles ");
                                                                                         while($row = mysqli_fetch_array($result)) {
