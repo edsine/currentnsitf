@@ -16,7 +16,7 @@ $conn=new mysqli('localhost','root','','ebsdb');
 
 // $db_connection = new Database();
 // $conn = $db_connection->data;
-$id=$_POST['documentId'];
+$id=$_GET['doc_dialogue'];
 
 
 $document_name=$_POST['document_name'];
@@ -24,6 +24,7 @@ $document_name=$_POST['document_name'];
 
 $document_desc=$_POST['document_desc'];
 $doc_file= $_POST['doc_file'];
+
                     
         try{
              $update_query="UPDATE `document_manager` SET `document_name`='$document_name',`document_desc`='$document_desc', `doc_file`='$doc_file' WHERE  `documentId`=$id";
@@ -33,7 +34,7 @@ $doc_file= $_POST['doc_file'];
                    
                    echo ("updated ");
 
-                   header('location:../md_home');
+                   header('location:../md_home?suc');
                } else{
                    echo ("error updating :" .$conn->error);
                }

@@ -12,10 +12,9 @@ function msg($success,$status,$user,$message,$extra = []){
 
 
 
-require __DIR__.'/classes/database.php';
+require __DIR__.'/../../classes/database.php';
 $db_connection = new Database();
-var_dump($db_connection);
-exit();
+
 $conn = $db_connection->dbConnection();
 
 
