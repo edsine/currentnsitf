@@ -72,10 +72,10 @@ $files = $query->getRows("select * from document_manager where staffId = $staff 
                                 <i class="bx bx-dots-vertical-rounded"></i>
                               </button>
                               <div class="dropdown-menu">
-                                <a class="dropdown-item" href="javascript:void(0);"
-                                  ><i class="bx bx-edit-alt me-1"></i> Edit</a
+                                <a class="dropdown-item" href="components/document_edit.php?id=<?php echo $row['documentId'] ?>"
+                                  ><i class="bx bx-edit-alt me-1"></i> Edit </a
                                 >
-                                <a class="dropdown-item" href="javascript:void(0);"
+                                <a class="dropdown-item" href="processor/document_delete.php?id=<?php echo $row['documentId'] ?>"
                                   ><i class="bx bx-trash me-1"></i> Delete</a
                                 >
                                 <a class="dropdown-item" href=""data-toggle="modal" data-target="#staff_list" id="<?php echo $row['documentId'];?>"

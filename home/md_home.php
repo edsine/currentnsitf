@@ -142,6 +142,7 @@ $_SESSION['path'] = $department;
                                                        <!-- <a href="#" class="btn btn-light" data-bs-toggle="dropdown"><em class="icon ni ni-plus"></em> <span>Create</span></a> -->
                                                         <div class="dropdown-menu dropdown-menu-end">
                                                             <ul class="link-list-opt no-bdr">
+                                                              //........................................................
                                                                 <li><a href="#" data-toggle="modal" data-target="#create_folder"><em class="icon ni ni-upload-cloud"></em><span>Folder</span></a></li>
                                                                 <li><a href="#"><em class="icon ni ni-file-plus"></em><span>Create File</span></a></li>
                                                                 <li><a href="#"><em class="icon ni ni-folder-plus"></em><span>Create Folder</span></a></li>
