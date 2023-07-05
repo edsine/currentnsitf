@@ -1,6 +1,10 @@
 <?php
 session_start();
-$conn= new mysqli('localhost','root','','ebsdb');
+require 'classes/Database.php';
+$db_connection = new Database();
+$conn = $db_connection->dbConnection();
+
+
 $id= $_GET['id'];
 $folder_id=$_GET['id'];
  

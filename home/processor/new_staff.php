@@ -171,7 +171,7 @@ $mail->IsHTML(true);                                  // set email format to HTM
 
 $mail->Subject = "NSITF EBS LOGIN CREDENTIALS,";
 
-$Body    = "
+$mail->Body   = "
 <html xmlns=\"http://www.w3.org/1999/xhtml\">
   <head>
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />

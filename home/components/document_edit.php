@@ -103,11 +103,11 @@ $conn->close();
 
             <form  method="post" class="form-control" action="../processor/document_edit."    enctype="multipart/form-data" >
                 <div class="form-element my-4">
-                    <input class="form-control" type="text" name="document_name" value=<?php echo $result['document_name'] ?>>
+                    <input class="form-control" type="text" name="document_name" value=<?php echo $result['document_name'] ?> required>
                 </div>
                 <div class="form-element">
 
-                    <input type="hidden" name='documentId' value=<?php echo $result['documentId'] ?>>
+                    <input type="hidden" name='documentId' value=<?php echo $result['documentId'] ?> required>
                 </div>
 <div class="form-element my-4">
     
