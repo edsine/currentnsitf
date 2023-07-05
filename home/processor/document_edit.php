@@ -34,7 +34,7 @@ $doc_file= $_POST['doc_file'];
                    
                    echo ("updated ");
 
-                   header('location:../md_home?suc');
+                   header('location: ../md_home?suc');
                } else{
                    echo ("error updating :" .$conn->error);
                }

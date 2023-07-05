@@ -50,7 +50,8 @@ $files = $query->getRows("select * from document_manager where staffId = $staff 
                              
                         
                           <td>
-                            <div class="dropdown">
+                            
+                            <div class="dropdown mb-4">
                               <button
                                 type="button"
                                 class="btn p-0 dropdown-toggle hide-arrow"
@@ -64,9 +65,9 @@ $files = $query->getRows("select * from document_manager where staffId = $staff 
                                 <a class="dropdown-item" href="processor/document_delete.php?id=<?php echo $row['documentId'] ?>"
                                   ><i class="bx bx-trash me-1"></i> Delete</a
                                 >
-                                <a class="dropdown-item" href=""data-toggle="modal" data-target="#staff_list" id="<?php echo $row['documentId'];?>"
+                                <!-- <a class="dropdown-item" href=""data-toggle="modal" data-target="#staff_list" id="<?php echo $row['documentId'];?>"
                                   ><i class="bx bx-share-alt me-1"></i>Share</a
-                                >
+                                > -->
                               </div>
                             </div>
                           </td>
