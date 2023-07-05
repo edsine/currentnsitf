@@ -32,7 +32,7 @@ $branchD = $query->getRow("select * from all_branch where branch_id = $branch");
 // $stmt = $pdo->query($getbranch);
 // $branchD = $stmt->fetchColumn();
 
-$myBranch = $branchD['branch_name'];
+// $myBranch = $branchD['branch_name'];
 
 
 $der =   $_SESSION['department'] ;
@@ -54,7 +54,8 @@ $myRole = $myrol['role'];
 <?php if($role == 1 || $role == 12 ){ ?>
   <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
     <div class="app-brand demo">
-      <a href="index" class="">
+   
+    <a href="index" class="">
         <span class="app-brand-logo demo">
 
         </span>
@@ -62,10 +63,38 @@ $myRole = $myrol['role'];
       </a>
 
 
+
+          <ul class="menu-inner py-1">
+            <!-- Dashboard -->
+            <!-- <li class="menu-item " style="background-color:#50664d; border-color:#50664d;"> -->
+              <!-- <a href="index" class="menu-link"> -->
+                <!-- <i  style="color:#fff;" class="menu-icon tf-icons bx bx-home-circle"></i> -->
+                <!-- <div data-i18n="Analytics" style="color:#fff;">Dashboard  </div> -->
+             
+              <!-- </a> -->
+             
+            <!-- </li> -->
+            
+            
+            <li class="">
+              <!-- <a href="index" class="menu-link">
+               
+                 <div data-i18n="Analytics" style="font-size:15px; font-weight:bold;"><?php echo  $myDepartment.' &nbsp; &nbsp;<br>'.$myRole  ?></div>
+                
+              </a> -->
+
+              
+               <a href="index" class="menu-link">
+               
+                <div data-i18n="Analytics" style="font-size:12px;"><?php echo $myBranch ?></div>
+                
+              </a>
+            </li>
       <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
         <i class="bx bx-chevron-left bx-sm align-middle"></i>
       </a>
     </div>
+
 
     <div class="menu-inner-shadow"></div>
 
@@ -382,8 +411,6 @@ $myRole = $myrol['role'];
                 
               </ul>
             </li>
-
-
             <li class="menu-item">
               <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
@@ -901,7 +928,7 @@ $myRole = $myrol['role'];
     <li class="menu-item " style="background-color:#50664d; border-color:#50664d;">
       <a href="index" class="menu-link">
         <i  style="color:#fff;" class="menu-icon tf-icons bx bx-home-circle"></i>
-        <div data-i18n="Analytics" style="color:#fff;">Dashboard</div>
+        <div data-i18n="Analytics" style="color:#fff;">Dashboard </div>
       </a>
     </li>
 
@@ -1119,7 +1146,7 @@ $myRole = $myrol['role'];
       <li class="menu-item active" style="background-color:#37a33f; border-color:#37a33f;">
         <a href="index" class="menu-link">
           <i class="menu-icon tf-icons bx bx-home-circle" style="color:#fff;" ></i>
-          <div data-i18n="Analytics" style="color:#fff;">Dashboard</div>
+          <div data-i18n="Analytics" style="color:#fff;">Dashboard </div>
         </a>
       </li>
 
