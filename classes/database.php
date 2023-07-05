@@ -6,8 +6,10 @@
  * and open the template in the editor.
  */
 
+//nsitfmai_essp"
 class Database{
-    protected $data;
+    public $data;
+
       public $isConnect;
       
    public function __construct($host="localhost", $dbname = "ebsdb", $user = "root", $pass = "", $options=[] ) {
@@ -23,7 +25,9 @@ class Database{
       }
 
       public function dbConnection() {
-        return $this->data;
+
+          return $this->data;
+
       }
     
 }
