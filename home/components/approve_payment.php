@@ -1,7 +1,7 @@
 <?php 
 session_start();
 
-$conn = new mysqli('178.159.5.249', 'ebs@nsitf', 'nsitfmai_ebs2', 'nsitfmai_essp');
+$conn = new mysqli('localhost', 'root', '', 'ebsdb');
 
     
           

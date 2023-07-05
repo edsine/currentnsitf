@@ -14,6 +14,7 @@ function msg($success,$status,$user,$message,$extra = []){
 
 require __DIR__.'/../../classes/database.php';
 $db_connection = new Database();
+
 $conn = $db_connection->dbConnection();
 
 
