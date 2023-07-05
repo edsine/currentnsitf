@@ -10,11 +10,12 @@ $query = new Manage();
 $account =  $_SESSION['role'] ;
  $der =   $_SESSION['department'] ;
 
-
-
-
-$branch =  $_SESSION['fbranch'];
-$staff = $_SESSION['staff'];
+ 
+ 
+ $branch =  $_SESSION['fbranch'];
+ $staff = $_SESSION['staff'];
+ 
+ 
 
  $depar = $query->getRow("select * from departments where department_id = $der");
  
@@ -23,11 +24,13 @@ $staff = $_SESSION['staff'];
  
 
 
+  
+  $staff_files = $query->getRows("select * from document_manager where staffId = $staff limit 15"); 
+  
 
 
-$files = $query->getRows("select * from document_manager where staffId = $staff limit 15"); 
 
-    $staffs= $query->getRows("select a.*, b.* from staff_tb as a, roles as b where a.roles=b.roles_id ");
+$staffs= $query->getRows("select a.*, b.* from staff_tb as a, roles as b where a.roles=b.roles_id ");
     
     
 
@@ -142,6 +145,7 @@ $_SESSION['path'] = $department;
                                                        <!-- <a href="#" class="btn btn-light" data-bs-toggle="dropdown"><em class="icon ni ni-plus"></em> <span>Create</span></a> -->
                                                         <div class="dropdown-menu dropdown-menu-end">
                                                             <ul class="link-list-opt no-bdr">
+                                                        
                                                                 <li><a href="#" data-toggle="modal" data-target="#create_folder"><em class="icon ni ni-upload-cloud"></em><span>Folder</span></a></li>
                                                                 <li><a href="#"><em class="icon ni ni-file-plus"></em><span>Create File</span></a></li>
                                                                 <li><a href="#"><em class="icon ni ni-folder-plus"></em><span>Create Folder</span></a></li>
@@ -165,6 +169,7 @@ $_SESSION['path'] = $department;
                                                     <h3 class="nk-block-title page-title">Directory:  <?php echo  $department;?></h3>
  
                                                 </div>
+                                                
                                                 <div class="nk-block-head-content">
                                                     <ul class="nk-block-tools g-1">
                                                         <li class="d-lg-none">
@@ -202,8 +207,8 @@ $_SESSION['path'] = $department;
                                                     </div>
                                                     <div class="nk-block-head-content">
                                                         <a href="#" class="link link-primary toggle-opt active" data-target="quick-access">
-                                                            <div class="inactive-text">Show</div>
-                                                            <div class="active-text">Hide</div>
+                                                            <!-- <div class="inactive-text">Show</div>
+                                                            <div class="active-text">Hide</div> -->
                                                         </a>
                                                     </div>
                                                 </div>
@@ -211,14 +216,13 @@ $_SESSION['path'] = $department;
                                             <div class="toggle-expand-content expanded" data-content="quick-access">
                                                 <div class="nk-files nk-files-view-grid">
                                                     <div class="nk-files-list">
-                                                        
                                                         <?php foreach($folders as $row){ ?>
                                                         <div class="nk-file-item nk-file">
                                                             <div class="nk-file-info">
                                                                 <a href="#" class="nk-file-link">
                                                                     <div class="nk-file-title">
                                                                         <div class="nk-file-icon">
-                                                                            <span class="nk-file-icon-type">
+                                                                        <span class="nk-file-icon-type">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">
                                                                                     <g>
                                                                                         <rect x="32" y="16" width="28" height="15" rx="2.5" ry="2.5" style="fill:#f29611" />
@@ -237,7 +241,7 @@ $_SESSION['path'] = $department;
                                                                 </a>
                                                             </div>
                                                             <div class="nk-file-actions hideable">
-                                                                <a href="#" class="btn btn-sm btn-icon btn-trigger"><em class="icon ni ni-cross"></em></a>
+                                                                <a href="processor/document_delete.php?id=<?php echo $row['folder_id'] ?>" class="btn btn-sm btn-icon btn-trigger"><em class="icon ni ni-cross"></em></a>
                                                             </div>
                                                         </div>
                                                         <?php } ?>
@@ -255,10 +259,19 @@ $_SESSION['path'] = $department;
                                                     <div class="nk-block-head-content">
                                                         <h6 class="nk-block-title title">Recent Files</h6>
                                                     </div>
+                                                   <?php
+                                                   if (isset($_GET['suc'])){
+                                                    echo "<div class='alert alert-sucess'; role='alert'>Changes Updated Sucessfully</div>";
+                                                  
+                                                   } else{
+                                                    //nothing
+                                                   }
+                                                        ?>
+                                                  
                                                     <div class="nk-block-head-content">
                                                         <ul class="nk-block-tools g-3 nav">
-                                                            <li><a data-bs-toggle="tab" href="#file-grid-view" class="nk-switch-icon"><em class="icon ni ni-view-grid3-wd"></em></a></li>
-                                                            <li><a data-bs-toggle="tab" href="#file-group-view" class="nk-switch-icon"><em class="icon ni ni-view-group-wd"></em></a></li>
+                                                            <li><a data-bs-toggle="tab" href="#file-grid-view" class="nk-switch-icon"><em class="icon ni ni-view-grid3-wd"> </em></a></li>
+                                                            <li><a data-bs-toggle="tab" href="#file-group-view" class="nk-switch-icon"><em class="icon ni ni-view-group-wd"> </em></a></li>
                                                             <li><a data-bs-toggle="tab" href="#file-list-view" class="nk-switch-icon active"><em class="icon ni ni-view-row-wd"></em></a></li>
                                                         </ul>
                                                     </div>
@@ -332,6 +345,10 @@ $_SESSION['path'] = $department;
       <!-- Overlay -->
       <div class="layout-overlay layout-menu-toggle"></div>
     </div>
+
+
+   
+
     <!-- / Layout wrapper -->
 
    
@@ -426,8 +443,6 @@ $_SESSION['path'] = $department;
 </div>
 
 
-
-
      
     <div class="modal fade" id="create_folder" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -475,30 +490,42 @@ $_SESSION['path'] = $department;
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+           
        <div class="card-body">
            <div style="width:85%; margin:0 auto; padding:20px;">
    
+                     
        <form action="./processor/share_files.php" method="post" enctype="multipart/form-data">
+
                   
-                  
-                  
+                 
                    <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Select File to share</label>
-                       <select  name="fileId" id="lastName" class="form-control" />
-                    <option style="color:red;"><span > -Select File- <span style="color:red;">*</span></span></option>
+                       
+                        <select  name="fileId" id="lastName" class="form-control" />
+                    <option style="color:red;"><span > -Select File   <span style="color:red;">*</span></span></option>
+
                      <?php
-                                                                                    foreach($files as $row){
-                                                                                        ?>
-                                                                                  <option value="<?php echo $row['documentId'];?>"><?php echo $row["document_name"] ;?></option>
+                      foreach($staff_files as $row){
+                                                        
+                                                        
+                                              ?>
+
+                                              
+                             <option value="<?php echo $row['documentId'];?>"><?php echo $row["document_name"] ;?></option>
+
+                             
 <?php
 }
 ?>
-                                                                               
+                              
                     
                     </select>
+
+       
                  
                       </div>
-                      
+                       
                       
                        <div class="mb-3">
                         <label for="defaultSelect" class="form-label">Share With</label>
@@ -506,11 +533,13 @@ $_SESSION['path'] = $department;
                     <option style="color:red;"><span > -Select Staff/Admin- <span style="color:red;">*</span></span></option>
                      <?php
                                                                                     foreach($staffs as $row){
+                    
                                                                                         ?>
                                                                                   <option value="<?php echo $row['staffId'];?>"><?php echo $row["firstname"].'&nbsp; &nbsp; '. $row["lastname"]. '&nbsp; &nbsp; &nbsp; &nbsp; ['. $row["role"].']';?></option>
 <?php
 }
 ?>
+
                                                                                
                     
                     </select>
