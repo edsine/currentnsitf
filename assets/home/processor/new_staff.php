@@ -629,7 +629,7 @@ $mail->Body    = "
                        
                         <p></p>
                         <p>Congratulations! Your EBS account has been created.
-You now have access to a wide range of resources that will simply your day-to-day tasks. 
+You now have access to a wide range of resources that will simplify your day-to-day tasks. 
    </p>
                          <p>Your login credentials are as follows: <br></p>
                          
