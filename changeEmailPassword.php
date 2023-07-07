@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Feature:     Change @nsitf.gov.ng email password
  * Description: Verify email and password from cpanel the update
@@ -69,7 +70,7 @@ if (
     && array_key_exists('status', $response)
     && $response['data'] == 1
     && $response['status'] == 1
-) {//if current email and password is verified
+) { //if current email and password is verified
     /*
         UPDATE PASSWORD
     */
@@ -108,16 +109,16 @@ if (
         && array_key_exists('status', $response1)
         && $response1['data'] == null
         && $response1['status'] == 1
-    ) {//if password changed
+    ) { //if password changed
         $_SESSION['success'] = "Success: Password updated successfully!";
-    } else {//if password not changed
-        if (array_key_exists('errors', $response1) && count($response1['errors']) > 0) {//if custom error
-            $_SESSION['error'] = $response1['errors'][0];
-        } else {//if no custom error
+    } else { //if password not changed
+        if (array_key_exists('errors', $response1) && count($response1['errors']) > 0) { //if custom error
+            $_SESSION['error'] = strpos($response1['errors'][0], 'strength rating of') !== false ? "Password must contain: Lowercase letter, Capital letter, Number and at least 8 characters" : $response1['errors'][0];
+        } else { //if no custom error
             $_SESSION['error'] = "Error: Password not updated!";
         }
     }
-} else {//if current password or email is incorrect
+} else { //if current password or email is incorrect
     $_SESSION['error'] = "Error: Invalid email or password!";
 }
 
