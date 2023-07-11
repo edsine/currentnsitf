@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn= new mysqli('localhost','root','','ebsdb');
+$conn= new mysqli('localhost','root','root','ebsdb');
 $id= $_GET['id'];
 $folder_id=$_GET['id'];
  

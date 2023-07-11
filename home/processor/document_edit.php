@@ -12,7 +12,7 @@ function msg($success,$status,$user,$message,$extra = []){
         
 // require __DIR__.' /../../classes/Database.php';
 
-$conn=new mysqli('localhost','root','','ebsdb');
+$conn=new mysqli('localhost','root','root','ebsdb');
 
 // $db_connection = new Database();
 // $conn = $db_connection->data;

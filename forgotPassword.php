@@ -36,6 +36,7 @@ if (isset($_POST) && !empty($_POST) && trim($_POST['email']) != '') {
             require("PHPMailer_5.2.0/class.smtp.php");
             require("PHPMailer_5.2.0/class.pop3.php");
 
+            //$mail = new PHPMailer(true);
             $mail = new PHPMailer();
 
             require_once "home/components/forgot-password-email.php";
