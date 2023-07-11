@@ -133,6 +133,22 @@ if (isset($_POST['log'])) {
                             </div>
                         <?php endif; ?>
 
+
+                        <?php if ($_SESSION['error']) : ?>
+                            <div class="alert alert-danger" role="danger">
+                                <?= $_SESSION['error'] ?>
+                            </div>
+                        <?php unset($_SESSION['error']);
+                        endif; ?>
+
+                        <?php if ($_SESSION['success']) : ?>
+                            <div class="alert alert-success" role="danger">
+                                <?= $_SESSION['success'] ?>
+                            </div>
+                        <?php unset($_SESSION['success']);
+                        endif; ?>
+
+
                         <form id="" class="mb-3" action="" method="POST">
 
                             <input type="hidden" value="<?php echo $csrf ?>" name="csrf">
@@ -143,7 +159,7 @@ if (isset($_POST['log'])) {
                             <div class="mb-3 form-password-toggle">
                                 <div class="d-flex justify-content-between">
                                     <label class="form-label" for="password">Password</label>
-                                    <a href="forget-password">
+                                    <a href="forgot-password">
                                         <small>Forgot Password?</small>
                                     </a>
                                 </div>
