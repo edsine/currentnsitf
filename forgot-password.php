@@ -63,18 +63,18 @@
             <h4 class="mb-2">Forgot Password?</h4>
             <p class="mb-4">Enter your email and we'll send you instructions to reset your password</p>
 
-            <?php if ($_SESSION['error']) : ?>
-              <div class="alert alert-danger" role="danger">
-                <?= $_SESSION['error'] ?>
-              </div>
-            <?php unset($_SESSION['error']);
-            endif; ?>
-
             <?php if ($_SESSION['success']) : ?>
               <div class="alert alert-success" role="danger">
                 <?= $_SESSION['success'] ?>
               </div>
             <?php unset($_SESSION['success']);
+            endif; ?>
+
+            <?php if ($_SESSION['error']) : ?>
+              <div class="alert alert-danger" role="danger">
+                <?= $_SESSION['error'] ?>
+              </div>
+            <?php unset($_SESSION['error']);
             endif; ?>
 
             <form id="formAuthentication" class="mb-3" action="forgotPassword.php" method="POST">

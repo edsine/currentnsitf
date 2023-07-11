@@ -21,7 +21,7 @@ if (isset($_POST) && !empty($_POST) && trim($_POST['email']) != '') {
         $expDate = date('Y-m-d H:i:s', strtotime("+30 minutes"));
 
         //prepare link
-        $link = ($_SERVER['SERVER_PROTOCOL'] == 'HTTP/1.1' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/reset-password/?hash=' . $token;
+        $link = explode('/forgot-password', $_SERVER['HTTP_REFERER'])[0] . '/reset-password?hash=' . $token;
 
         //replace password with link
         $update_query = "UPDATE staff_tb SET security_key=:hash WHERE staff_email=:email";
@@ -29,10 +29,16 @@ if (isset($_POST) && !empty($_POST) && trim($_POST['email']) != '') {
         $update_stmt->bindValue(':hash', $token . ',' . $expDate, PDO::PARAM_STR);
         $update_stmt->bindValue(':email', $email, PDO::PARAM_STR);
         $result = $update_stmt->execute();
-        
+
         if ($result) {
             //send reset mail to staff
+            require("PHPMailer_5.2.0/class.phpmailer.php");
+            require("PHPMailer_5.2.0/class.smtp.php");
+            require("PHPMailer_5.2.0/class.pop3.php");
 
+            $mail = new PHPMailer();
+
+            require_once "home/components/forgot-password-email.php";
             //notify sent
             $_POST = [];
             $_SESSION['success'] = "Reset link sent to your email successfully!<br/><b>Note: </b>Link will expire in 30 minutes.";
