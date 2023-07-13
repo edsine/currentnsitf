@@ -1,59 +1,66 @@
-<?php 
+<?php
 session_start();
 
 //$conn = new mysqli('localhost', 'root', 'Mkpanama1', 'ebs');
- 
-require __DIR__.'/../classes/database.php';
+
+require __DIR__ . '/../classes/database.php';
 $db_connection = new Database();
 $conn = $db_connection->dbConnection();
 
- 
+
 $user = $_GET['id'];
 
-if (isset($_POST['gone'])) {
-    
-  
-$sql = "UPDATE staff_tb SET roles = :role WHERE staffId = :staff";
-$stmt = $conn->prepare($sql);
+//get selected user
+$stmt1 = $conn->prepare("SELECT firstname, middlename, lastname, roles, POSITION FROM staff_tb WHERE staffId=:staff_id");
+$stmt1->bindValue(':staff_id', $user, PDO::PARAM_STR);
+$stmt1->execute();
 
-
-if ($stmt) {
-  // Set the parameter values
-  $role = $_POST['role'];
-  $staff = $_GET['id'];
-
-  // Bind the parameter values to the named placeholders
-  $stmt->bindParam(':role', $role);
-  $stmt->bindParam(':staff', $user);
-  echo $user;
-  // Execute the prepared statement
-  $stmt->execute();
-
-  // Close the statement
-  $stmt = null;
-
-  $_SESSION['crole']=TRUE;
-        
-        header("location:user_roles");
-} else {
-  // Handle error if the prepare() method failed
-  echo "Failed to prepare the statement.";
+if ($stmt1->rowCount()) {
+    $stmt1->setFetchMode(PDO::FETCH_ASSOC);
+    $profile = $stmt1->fetch();
 }
+
+if (isset($_POST['gone'])) {
+
+
+    $sql = "UPDATE staff_tb SET roles = :role, POSITION = :position WHERE staffId = :staff";
+    $stmt = $conn->prepare($sql);
+
+
+    if ($stmt) {
+        // Set the parameter values
+        $role = $_POST['role'];
+        $position = $_POST['position'];
+        $staff = $_GET['id'];
+
+        // Bind the parameter values to the named placeholders
+        $stmt->bindParam(':role', $role);
+        $stmt->bindParam(':position', $position);
+        $stmt->bindParam(':staff', $user);
         
-        
-     
+        // Execute the prepared statement
+        $stmt->execute();
+
+        // Close the statement
+        $stmt = null;
+
+        $_SESSION['crole'] = TRUE;
+
+        header("location:user_roles");
+    } else {
+        // Handle error if the prepare() method failed
+        echo "Failed to prepare the statement.";
+    }
 }
 
 ?>
 <!DOCTYPE html>
 
-<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/"
-    data-template="vertical-menu-template-free">
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/" data-template="vertical-menu-template-free">
 
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
     <title>Employer Account</title>
 
@@ -65,9 +72,7 @@ if ($stmt) {
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
 
     <!-- Icons. Uncomment required icon fonts -->
     <link rel="stylesheet" href="../assets/vendor/fonts/boxicons.css" />
@@ -125,8 +130,8 @@ if ($stmt) {
                                         <div class="col-sm-9">
                                             <div class="card-body" style="height:40%;">
 
-                                                <p class="mb-4" style="font-size:18px;">
-                                                    Updating Staff Role</a>
+                                                <p class="mb-4" style="font-size:18px; font-weight: bold;">
+                                                    Update Staff Role and Position</a>
                                                 </p>
 
                                                 <div class="card">
@@ -135,30 +140,50 @@ if ($stmt) {
 
                                                         <form action="" method="post">
 
-                                                            <input type="hidden" name="user"
-                                                                value="<?php echo $user ?>" />
-                                                            <div class="mb-3">
-                                                                <label for="formFile" class="form-label">Select new
-                                                                    role</label>
+                                                            <div class="form-group mb-3">
+                                                                <label class="form-label">NAME:</label>
+                                                                <span class="fw-bold form-control">
+                                                                    <?= $profile['firstname'] . ' ' . $profile['middlename'] . ' ' . $profile['lastname'] ?>
+                                                                </span>
+                                                            </div>
 
-                                                                <select class="form-select"
-                                                                    aria-label="Default select example"
-                                                                    id="country-dropdown" name="role">
-                                                                    <option>-Select Role-</option> <?php
-                                                                                        require_once "db.php";
-                                                                                        $result = mysqli_query($conn,"SELECT * FROM roles ");
-                                                                                        while($row = mysqli_fetch_array($result)) {
-                                                                                        ?>
-                                                                    <option value="<?php echo $row['roles_id'];?>">
-                                                                        <?php echo $row["role"];?></option>
+                                                            <div class="form-group mb-3">
+                                                                <input type="hidden" name="user" value="<?php echo $user ?>" />
+
+                                                                <label for="formFile" class="form-label">Select new role</label>
+                                                                <select class="form-select" aria-label="Default select example" id="country-dropdown" name="role">
+                                                                    <option>-Select Role-</option>
                                                                     <?php
-}
-?>
+                                                                    require_once "db.php";
+                                                                    $result = mysqli_query($conn, "SELECT * FROM roles");
 
+                                                                    while ($row = mysqli_fetch_array($result)) {
+                                                                    ?>
+                                                                        <option value="<?php echo $row['roles_id']; ?>" <?= $row['roles_id'] == $profile['roles'] ? 'selected' : '' ?>>
+                                                                            <?php echo $row["role"]; ?>
+                                                                        </option>
+                                                                    <?php } ?>
                                                                 </select>
                                                             </div>
-                                                            <button type="submit" name="gone"
-                                                                class="btn btn-primary">update</button>
+
+                                                            <div class="form-group mb-3">
+                                                                <label for="" class="form-label">Select new position</label>
+                                                                <select name="position" id="position" class="form-select">
+                                                                    <option>-Select Position-</option>
+                                                                    <?php
+                                                                    //require_once "db.php";
+                                                                    $result = mysqli_query($conn, "SELECT * FROM positions");
+
+                                                                    while ($row = mysqli_fetch_array($result)) {
+                                                                    ?>
+                                                                        <option value="<?php echo $row['position_id']; ?>"  <?= $row['position_id'] == $profile['POSITION'] ? 'selected' : '' ?>>
+                                                                            <?php echo $row["position_name"]; ?>
+                                                                        </option>
+                                                                    <?php } ?>
+                                                                </select>
+                                                            </div>
+
+                                                            <button type="submit" name="gone" class="btn btn-primary">Update</button>
                                                         </form>
 
                                                     </div>
@@ -227,13 +252,12 @@ if ($stmt) {
 <!-- Datatables -->
 <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
 <!-- Bootstrap -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 </script>
 <script>
-$(document).ready(function() {
-    $('#tabulka_kariet1').DataTable();
-});
+    $(document).ready(function() {
+        $('#tabulka_kariet1').DataTable();
+    });
 </script>
 
 </html>

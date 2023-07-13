@@ -110,7 +110,7 @@ $myRole = $myrol['role'];
       <li class="menu-item">
         <a href="index" class="menu-link">
 
-         <div data-i18n="Analytics" style="font-size:15px; font-weight:bold;"><?php echo  $myDepartment.' &nbsp; &nbsp;<br>'.$myRole  ?></div>
+         <div data-i18n="Analytics" style="font-size:20px; font-weight:bold;"><?php echo  $myDepartment.' &nbsp; &nbsp;<br>'.$myRole  ?></div>
 
        </a>
 
