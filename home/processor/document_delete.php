@@ -1,30 +1,33 @@
 <?php
 session_start();
-$conn= new mysqli('localhost','root','root','ebsdb');
-$id= $_GET['id'];
-$folder_id=$_GET['id'];
- 
-$sql= "DELETE  FROM document_manager WHERE documentId =$id ";
 
-$fstm="DELETE FROM dir_folders where folder_id=$folder_id";
+require __DIR__ . '/../../classes/Database.php';
+$db_connection = new Database();
+$conn = $db_connection->dbConnection();
 
-if($conn->query($fstm)){
-    $_SESSION['success'];
-    header('Location: ../md_home');
-} else {
-    echo " unable to delete folder";
-}
 
-if ($conn->query($sql)){
-echo "deleted successfully";
-header('Location');
+if($_GET['type'] == 'doc'){
+    $id = $_GET['id'];
+    $sql = "DELETE  FROM document_manager WHERE documentId =$id ";
+    $delete_stmt = $conn->prepare($sql);
+    $result = $delete_stmt->execute();
+
+    if ($result) {
+        $_SESSION['success'] = "Document deleted successfully!";
+    } else {
+        $_SESSION['error'] = "Error deleting document!";
+    }
 }else{
-    echo " error " .$conn->connect_error;
-
+    $folder_id = $_GET['id'];
+    $fstm = "DELETE FROM dir_folders where folder_id=$folder_id";
+    $delete_stmt = $conn->prepare($fstm);
+    $result = $delete_stmt->execute();
+    
+    if ($result) {
+        $_SESSION['success'] = "Folder deleted successfully!";
+    } else {
+        $_SESSION['error'] = " unable to delete folder";
+    }
 }
 
-
-
-
-
-?>
+header('location:../md_home');
