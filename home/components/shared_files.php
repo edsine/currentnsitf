@@ -61,7 +61,7 @@ $files = $query->getRows("select a.*, b.*, c.*  from shared_files as a, staff_tb
                           <?php foreach($files as $row){ ?>
                         <tr>
                          
-                          <td><?php echo $row['document_name'] ?></td>
+                          <td><a href="processor/document_download.php?file=<?php echo $row['documentId'] ?>"><?php echo $row['document_name'] ?></a></td>
                           <td><?php echo $row['document_desc'] ?></td>
                             <td><?php echo $row['doc_size'] ?></td>
                             
